@@ -26,6 +26,7 @@ import {
   ZAxis,
   Legend,
 } from 'recharts';
+import type { ScatterPointItem } from 'recharts/types/cartesian/Scatter';
 import { SortableLayerCard } from './components/SortableLayerCard';
 import { NetworkOutputCard } from './components/NetworkOutputCard';
 import { buildPieData, formatPercent, getClassColor, seedShuffle } from './lib/utils';
@@ -688,11 +689,13 @@ function flattenMatrix(matrix: ConfusionMatrixCell[][]) {
   return items;
 }
 
-function renderMatrixCell({ cx = 0, cy = 0, payload }: { cx?: number; cy?: number; payload?: MatrixPoint }) {
-  if (!payload) {
-    return null;
+function renderMatrixCell(props: unknown) {
+  const { cx = 0, cy = 0, payload } = (props ?? {}) as ScatterPointItem;
+  const matrixPayload = payload as MatrixPoint | undefined;
+  if (!matrixPayload) {
+    return <g />;
   }
-  const { value } = payload;
+  const { value } = matrixPayload;
   const size = 60;
   const intensity = value === 0 ? 0 : Math.min(value / 15, 1);
   return (
