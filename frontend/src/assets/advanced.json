@@ -1,0 +1,6602 @@
+[
+  {
+    "id": 0,
+    "orbitRadius": 1.417,
+    "orbitalSpeed": 1.611,
+    "luminosity": 0.117,
+    "turbulence": 0.858,
+    "pcaX": 1.081,
+    "pcaY": 0.019,
+    "pattern": "Orion"
+  },
+  {
+    "id": 1,
+    "orbitRadius": 1.183,
+    "orbitalSpeed": 1.599,
+    "luminosity": -0.32,
+    "turbulence": 0.997,
+    "pcaX": 1.085,
+    "pcaY": -0.151,
+    "pattern": "Orion"
+  },
+  {
+    "id": 2,
+    "orbitRadius": 1.388,
+    "orbitalSpeed": 1.514,
+    "luminosity": 0.237,
+    "turbulence": 1.296,
+    "pcaX": 1.611,
+    "pcaY": 0.385,
+    "pattern": "Orion"
+  },
+  {
+    "id": 3,
+    "orbitRadius": 1.193,
+    "orbitalSpeed": 1.614,
+    "luminosity": 0.208,
+    "turbulence": 0.525,
+    "pcaX": 1.545,
+    "pcaY": -0.09,
+    "pattern": "Orion"
+  },
+  {
+    "id": 4,
+    "orbitRadius": 1.018,
+    "orbitalSpeed": 1.265,
+    "luminosity": 0.431,
+    "turbulence": 0.978,
+    "pcaX": 1.386,
+    "pcaY": 0.155,
+    "pattern": "Orion"
+  },
+  {
+    "id": 5,
+    "orbitRadius": 1.422,
+    "orbitalSpeed": 1.564,
+    "luminosity": 1.024,
+    "turbulence": 0.846,
+    "pcaX": 1.735,
+    "pcaY": 0.149,
+    "pattern": "Orion"
+  },
+  {
+    "id": 6,
+    "orbitRadius": 1.157,
+    "orbitalSpeed": 1.524,
+    "luminosity": 0.52,
+    "turbulence": 0.736,
+    "pcaX": 1.14,
+    "pcaY": 0.116,
+    "pattern": "Orion"
+  },
+  {
+    "id": 7,
+    "orbitRadius": 1.438,
+    "orbitalSpeed": 1.706,
+    "luminosity": -0.082,
+    "turbulence": 0.35,
+    "pcaX": 1.488,
+    "pcaY": 0.31,
+    "pattern": "Orion"
+  },
+  {
+    "id": 8,
+    "orbitRadius": 1.317,
+    "orbitalSpeed": 1.834,
+    "luminosity": 0.507,
+    "turbulence": 0.009,
+    "pcaX": 1.231,
+    "pcaY": 0.832,
+    "pattern": "Orion"
+  },
+  {
+    "id": 9,
+    "orbitRadius": 1.529,
+    "orbitalSpeed": 1.78,
+    "luminosity": 0.601,
+    "turbulence": 1.038,
+    "pcaX": 1.771,
+    "pcaY": 0.631,
+    "pattern": "Orion"
+  },
+  {
+    "id": 10,
+    "orbitRadius": 1.549,
+    "orbitalSpeed": 1.731,
+    "luminosity": 0.787,
+    "turbulence": 1.116,
+    "pcaX": 1.009,
+    "pcaY": 0.661,
+    "pattern": "Orion"
+  },
+  {
+    "id": 11,
+    "orbitRadius": 1.435,
+    "orbitalSpeed": 1.843,
+    "luminosity": 0.499,
+    "turbulence": 0.749,
+    "pcaX": 1.56,
+    "pcaY": 0.618,
+    "pattern": "Orion"
+  },
+  {
+    "id": 12,
+    "orbitRadius": 1.369,
+    "orbitalSpeed": 1.378,
+    "luminosity": 1.201,
+    "turbulence": 0.805,
+    "pcaX": 1.206,
+    "pcaY": 0.627,
+    "pattern": "Orion"
+  },
+  {
+    "id": 13,
+    "orbitRadius": 1.289,
+    "orbitalSpeed": 1.625,
+    "luminosity": 0.762,
+    "turbulence": 0.85,
+    "pcaX": 1.03,
+    "pcaY": 0.679,
+    "pattern": "Orion"
+  },
+  {
+    "id": 14,
+    "orbitRadius": 1.457,
+    "orbitalSpeed": 1.587,
+    "luminosity": 0.271,
+    "turbulence": 0.95,
+    "pcaX": 1.752,
+    "pcaY": 0.284,
+    "pattern": "Orion"
+  },
+  {
+    "id": 15,
+    "orbitRadius": 1.451,
+    "orbitalSpeed": 1.847,
+    "luminosity": 0.446,
+    "turbulence": 0.436,
+    "pcaX": 1.37,
+    "pcaY": 0.658,
+    "pattern": "Orion"
+  },
+  {
+    "id": 16,
+    "orbitRadius": 0.995,
+    "orbitalSpeed": 1.112,
+    "luminosity": 1.114,
+    "turbulence": 0.371,
+    "pcaX": 1.181,
+    "pcaY": 0.912,
+    "pattern": "Orion"
+  },
+  {
+    "id": 17,
+    "orbitRadius": 1.372,
+    "orbitalSpeed": 1.629,
+    "luminosity": 0.648,
+    "turbulence": 0.65,
+    "pcaX": 0.989,
+    "pcaY": 0.681,
+    "pattern": "Orion"
+  },
+  {
+    "id": 18,
+    "orbitRadius": 1.25,
+    "orbitalSpeed": 1.544,
+    "luminosity": 1.231,
+    "turbulence": 0.65,
+    "pcaX": 1.299,
+    "pcaY": 0.385,
+    "pattern": "Orion"
+  },
+  {
+    "id": 19,
+    "orbitRadius": 1.641,
+    "orbitalSpeed": 1.974,
+    "luminosity": 0.521,
+    "turbulence": 0.233,
+    "pcaX": 1.149,
+    "pcaY": 0.252,
+    "pattern": "Orion"
+  },
+  {
+    "id": 20,
+    "orbitRadius": 1.525,
+    "orbitalSpeed": 1.894,
+    "luminosity": 0.732,
+    "turbulence": -0.17,
+    "pcaX": 1.088,
+    "pcaY": 1.242,
+    "pattern": "Orion"
+  },
+  {
+    "id": 21,
+    "orbitRadius": 1.006,
+    "orbitalSpeed": 1.1,
+    "luminosity": 1.06,
+    "turbulence": 0.325,
+    "pcaX": 1.063,
+    "pcaY": 0.666,
+    "pattern": "Orion"
+  },
+  {
+    "id": 22,
+    "orbitRadius": 0.953,
+    "orbitalSpeed": 1.081,
+    "luminosity": 1.353,
+    "turbulence": 0.148,
+    "pcaX": 0.468,
+    "pcaY": 0.656,
+    "pattern": "Orion"
+  },
+  {
+    "id": 23,
+    "orbitRadius": 1.593,
+    "orbitalSpeed": 2.194,
+    "luminosity": 0.63,
+    "turbulence": -0.055,
+    "pcaX": 1.342,
+    "pcaY": 1.528,
+    "pattern": "Orion"
+  },
+  {
+    "id": 24,
+    "orbitRadius": 1.469,
+    "orbitalSpeed": 2.031,
+    "luminosity": 1.494,
+    "turbulence": 0.386,
+    "pcaX": 1.417,
+    "pcaY": 0.867,
+    "pattern": "Orion"
+  },
+  {
+    "id": 25,
+    "orbitRadius": 1.139,
+    "orbitalSpeed": 1.384,
+    "luminosity": 1.293,
+    "turbulence": 0.605,
+    "pcaX": 1.034,
+    "pcaY": 0.894,
+    "pattern": "Orion"
+  },
+  {
+    "id": 26,
+    "orbitRadius": 1.461,
+    "orbitalSpeed": 1.644,
+    "luminosity": 0.941,
+    "turbulence": 0.599,
+    "pcaX": 0.936,
+    "pcaY": 1.333,
+    "pattern": "Orion"
+  },
+  {
+    "id": 27,
+    "orbitRadius": 1.418,
+    "orbitalSpeed": 1.533,
+    "luminosity": 1.028,
+    "turbulence": 0.075,
+    "pcaX": 1.041,
+    "pcaY": 0.705,
+    "pattern": "Orion"
+  },
+  {
+    "id": 28,
+    "orbitRadius": 0.956,
+    "orbitalSpeed": 1.141,
+    "luminosity": 0.68,
+    "turbulence": 0.501,
+    "pcaX": 0.23,
+    "pcaY": 0.774,
+    "pattern": "Orion"
+  },
+  {
+    "id": 29,
+    "orbitRadius": 1.568,
+    "orbitalSpeed": 1.667,
+    "luminosity": 0.969,
+    "turbulence": 0.935,
+    "pcaX": 1.662,
+    "pcaY": 1.126,
+    "pattern": "Orion"
+  },
+  {
+    "id": 30,
+    "orbitRadius": 1.595,
+    "orbitalSpeed": 1.78,
+    "luminosity": 1.26,
+    "turbulence": 0.355,
+    "pcaX": 1.13,
+    "pcaY": 1.532,
+    "pattern": "Orion"
+  },
+  {
+    "id": 31,
+    "orbitRadius": 1.43,
+    "orbitalSpeed": 1.744,
+    "luminosity": 1.079,
+    "turbulence": -0.262,
+    "pcaX": 0.631,
+    "pcaY": 1.152,
+    "pattern": "Orion"
+  },
+  {
+    "id": 32,
+    "orbitRadius": 1.481,
+    "orbitalSpeed": 1.596,
+    "luminosity": 0.773,
+    "turbulence": 0.66,
+    "pcaX": 1.091,
+    "pcaY": 1.285,
+    "pattern": "Orion"
+  },
+  {
+    "id": 33,
+    "orbitRadius": 1.22,
+    "orbitalSpeed": 1.309,
+    "luminosity": 0.892,
+    "turbulence": 0.172,
+    "pcaX": 0.551,
+    "pcaY": 1.268,
+    "pattern": "Orion"
+  },
+  {
+    "id": 34,
+    "orbitRadius": 1.181,
+    "orbitalSpeed": 1.62,
+    "luminosity": 0.868,
+    "turbulence": 0.017,
+    "pcaX": 0.842,
+    "pcaY": 1.354,
+    "pattern": "Orion"
+  },
+  {
+    "id": 35,
+    "orbitRadius": 1.479,
+    "orbitalSpeed": 1.488,
+    "luminosity": 1.422,
+    "turbulence": 0.494,
+    "pcaX": 0.814,
+    "pcaY": 1.446,
+    "pattern": "Orion"
+  },
+  {
+    "id": 36,
+    "orbitRadius": 1.075,
+    "orbitalSpeed": 1.238,
+    "luminosity": 1.006,
+    "turbulence": 0.119,
+    "pcaX": 0.671,
+    "pcaY": 1.084,
+    "pattern": "Orion"
+  },
+  {
+    "id": 37,
+    "orbitRadius": 1.415,
+    "orbitalSpeed": 1.95,
+    "luminosity": 0.907,
+    "turbulence": -0.026,
+    "pcaX": 0.526,
+    "pcaY": 1.167,
+    "pattern": "Orion"
+  },
+  {
+    "id": 38,
+    "orbitRadius": 1.573,
+    "orbitalSpeed": 1.967,
+    "luminosity": 0.892,
+    "turbulence": 0.548,
+    "pcaX": 1.13,
+    "pcaY": 1.66,
+    "pattern": "Orion"
+  },
+  {
+    "id": 39,
+    "orbitRadius": 0.954,
+    "orbitalSpeed": 1.247,
+    "luminosity": 0.116,
+    "turbulence": -0.67,
+    "pcaX": 0.213,
+    "pcaY": 1.17,
+    "pattern": "Orion"
+  },
+  {
+    "id": 40,
+    "orbitRadius": 1.062,
+    "orbitalSpeed": 1.435,
+    "luminosity": 1.116,
+    "turbulence": -0.104,
+    "pcaX": 0.887,
+    "pcaY": 1.245,
+    "pattern": "Orion"
+  },
+  {
+    "id": 41,
+    "orbitRadius": 1.485,
+    "orbitalSpeed": 2.063,
+    "luminosity": 0.444,
+    "turbulence": -0.275,
+    "pcaX": 0.271,
+    "pcaY": 1.129,
+    "pattern": "Orion"
+  },
+  {
+    "id": 42,
+    "orbitRadius": 1.034,
+    "orbitalSpeed": 1.147,
+    "luminosity": 0.796,
+    "turbulence": -0.113,
+    "pcaX": 0.3,
+    "pcaY": 0.728,
+    "pattern": "Orion"
+  },
+  {
+    "id": 43,
+    "orbitRadius": 0.993,
+    "orbitalSpeed": 0.994,
+    "luminosity": 0.371,
+    "turbulence": 0.133,
+    "pcaX": 0.152,
+    "pcaY": 1.145,
+    "pattern": "Orion"
+  },
+  {
+    "id": 44,
+    "orbitRadius": 1.005,
+    "orbitalSpeed": 1.302,
+    "luminosity": 0.053,
+    "turbulence": -0.899,
+    "pcaX": 0.173,
+    "pcaY": 1.08,
+    "pattern": "Orion"
+  },
+  {
+    "id": 45,
+    "orbitRadius": 1.569,
+    "orbitalSpeed": 2.038,
+    "luminosity": 0.392,
+    "turbulence": -0.731,
+    "pcaX": 0.631,
+    "pcaY": 1.757,
+    "pattern": "Orion"
+  },
+  {
+    "id": 46,
+    "orbitRadius": 0.965,
+    "orbitalSpeed": 1.249,
+    "luminosity": -0.058,
+    "turbulence": 0.039,
+    "pcaX": 0.508,
+    "pcaY": 1.187,
+    "pattern": "Orion"
+  },
+  {
+    "id": 47,
+    "orbitRadius": 1.144,
+    "orbitalSpeed": 1.179,
+    "luminosity": 0.06,
+    "turbulence": -0.344,
+    "pcaX": 0.303,
+    "pcaY": 1.303,
+    "pattern": "Orion"
+  },
+  {
+    "id": 48,
+    "orbitRadius": 1.212,
+    "orbitalSpeed": 1.404,
+    "luminosity": 0.87,
+    "turbulence": 0.194,
+    "pcaX": 0.16,
+    "pcaY": 1.415,
+    "pattern": "Orion"
+  },
+  {
+    "id": 49,
+    "orbitRadius": 0.953,
+    "orbitalSpeed": 0.983,
+    "luminosity": -0.241,
+    "turbulence": -0.349,
+    "pcaX": 0.092,
+    "pcaY": 1.339,
+    "pattern": "Orion"
+  },
+  {
+    "id": 50,
+    "orbitRadius": 1.635,
+    "orbitalSpeed": 1.954,
+    "luminosity": -0.095,
+    "turbulence": -0.202,
+    "pcaX": 0.631,
+    "pcaY": 1.275,
+    "pattern": "Orion"
+  },
+  {
+    "id": 51,
+    "orbitRadius": 1.056,
+    "orbitalSpeed": 1.181,
+    "luminosity": 0.728,
+    "turbulence": -0.363,
+    "pcaX": 0.131,
+    "pcaY": 1.217,
+    "pattern": "Orion"
+  },
+  {
+    "id": 52,
+    "orbitRadius": 1.233,
+    "orbitalSpeed": 1.459,
+    "luminosity": -0.078,
+    "turbulence": -0.55,
+    "pcaX": 0.551,
+    "pcaY": 1.33,
+    "pattern": "Orion"
+  },
+  {
+    "id": 53,
+    "orbitRadius": 1.641,
+    "orbitalSpeed": 1.685,
+    "luminosity": -0.036,
+    "turbulence": 0.003,
+    "pcaX": -0.08,
+    "pcaY": 1.433,
+    "pattern": "Orion"
+  },
+  {
+    "id": 54,
+    "orbitRadius": 1.405,
+    "orbitalSpeed": 1.437,
+    "luminosity": 0.073,
+    "turbulence": -0.818,
+    "pcaX": -0.222,
+    "pcaY": 1.1,
+    "pattern": "Orion"
+  },
+  {
+    "id": 55,
+    "orbitRadius": 1.39,
+    "orbitalSpeed": 1.397,
+    "luminosity": 0.249,
+    "turbulence": 0.019,
+    "pcaX": -0.004,
+    "pcaY": 1.326,
+    "pattern": "Orion"
+  },
+  {
+    "id": 56,
+    "orbitRadius": 1.641,
+    "orbitalSpeed": 2.079,
+    "luminosity": -0.907,
+    "turbulence": -0.286,
+    "pcaX": -0.284,
+    "pcaY": 1.975,
+    "pattern": "Orion"
+  },
+  {
+    "id": 57,
+    "orbitRadius": 1.404,
+    "orbitalSpeed": 1.693,
+    "luminosity": 0.07,
+    "turbulence": -0.69,
+    "pcaX": 0.097,
+    "pcaY": 1.791,
+    "pattern": "Orion"
+  },
+  {
+    "id": 58,
+    "orbitRadius": 1.212,
+    "orbitalSpeed": 1.405,
+    "luminosity": -0.073,
+    "turbulence": -0.555,
+    "pcaX": 0.019,
+    "pcaY": 1.23,
+    "pattern": "Orion"
+  },
+  {
+    "id": 59,
+    "orbitRadius": 1.465,
+    "orbitalSpeed": 1.836,
+    "luminosity": -0.17,
+    "turbulence": -0.314,
+    "pcaX": -0.357,
+    "pcaY": 1.725,
+    "pattern": "Orion"
+  },
+  {
+    "id": 60,
+    "orbitRadius": 1.272,
+    "orbitalSpeed": 1.359,
+    "luminosity": -0.226,
+    "turbulence": -0.552,
+    "pcaX": -0.069,
+    "pcaY": 1.611,
+    "pattern": "Orion"
+  },
+  {
+    "id": 61,
+    "orbitRadius": 1.645,
+    "orbitalSpeed": 1.851,
+    "luminosity": -0.365,
+    "turbulence": -1.211,
+    "pcaX": -0.394,
+    "pcaY": 1.219,
+    "pattern": "Orion"
+  },
+  {
+    "id": 62,
+    "orbitRadius": 1.024,
+    "orbitalSpeed": 1.397,
+    "luminosity": -0.207,
+    "turbulence": -0.111,
+    "pcaX": 0.09,
+    "pcaY": 0.859,
+    "pattern": "Orion"
+  },
+  {
+    "id": 63,
+    "orbitRadius": 1.119,
+    "orbitalSpeed": 1.275,
+    "luminosity": -0.805,
+    "turbulence": -0.059,
+    "pcaX": 0.103,
+    "pcaY": 0.902,
+    "pattern": "Orion"
+  },
+  {
+    "id": 64,
+    "orbitRadius": 0.95,
+    "orbitalSpeed": 1.28,
+    "luminosity": -0.175,
+    "turbulence": -0.477,
+    "pcaX": 0.034,
+    "pcaY": 0.762,
+    "pattern": "Orion"
+  },
+  {
+    "id": 65,
+    "orbitRadius": 1.072,
+    "orbitalSpeed": 1.131,
+    "luminosity": -1.126,
+    "turbulence": -0.111,
+    "pcaX": -0.537,
+    "pcaY": 0.854,
+    "pattern": "Orion"
+  },
+  {
+    "id": 66,
+    "orbitRadius": 1.304,
+    "orbitalSpeed": 1.699,
+    "luminosity": -1.397,
+    "turbulence": -1.135,
+    "pcaX": -0.357,
+    "pcaY": 1.485,
+    "pattern": "Orion"
+  },
+  {
+    "id": 67,
+    "orbitRadius": 1.468,
+    "orbitalSpeed": 1.665,
+    "luminosity": -0.603,
+    "turbulence": -1.05,
+    "pcaX": -0.373,
+    "pcaY": 1.433,
+    "pattern": "Orion"
+  },
+  {
+    "id": 68,
+    "orbitRadius": 1.606,
+    "orbitalSpeed": 2.129,
+    "luminosity": 0.061,
+    "turbulence": -0.008,
+    "pcaX": -0.572,
+    "pcaY": 1.765,
+    "pattern": "Orion"
+  },
+  {
+    "id": 69,
+    "orbitRadius": 1.614,
+    "orbitalSpeed": 1.715,
+    "luminosity": -0.933,
+    "turbulence": -0.691,
+    "pcaX": -0.647,
+    "pcaY": 1.101,
+    "pattern": "Orion"
+  },
+  {
+    "id": 70,
+    "orbitRadius": 1.209,
+    "orbitalSpeed": 1.578,
+    "luminosity": -0.855,
+    "turbulence": -0.169,
+    "pcaX": -0.499,
+    "pcaY": 1.425,
+    "pattern": "Orion"
+  },
+  {
+    "id": 71,
+    "orbitRadius": 1.08,
+    "orbitalSpeed": 1.442,
+    "luminosity": -1.057,
+    "turbulence": -0.842,
+    "pcaX": -0.292,
+    "pcaY": 0.538,
+    "pattern": "Orion"
+  },
+  {
+    "id": 72,
+    "orbitRadius": 1.604,
+    "orbitalSpeed": 1.64,
+    "luminosity": -1.386,
+    "turbulence": -1.107,
+    "pcaX": -1.02,
+    "pcaY": 1.372,
+    "pattern": "Orion"
+  },
+  {
+    "id": 73,
+    "orbitRadius": 1.276,
+    "orbitalSpeed": 1.648,
+    "luminosity": -1.336,
+    "turbulence": -0.256,
+    "pcaX": -1.068,
+    "pcaY": 1.382,
+    "pattern": "Orion"
+  },
+  {
+    "id": 74,
+    "orbitRadius": 1.634,
+    "orbitalSpeed": 2.234,
+    "luminosity": -0.608,
+    "turbulence": -0.244,
+    "pcaX": -1.468,
+    "pcaY": 0.965,
+    "pattern": "Orion"
+  },
+  {
+    "id": 75,
+    "orbitRadius": 1.313,
+    "orbitalSpeed": 1.579,
+    "luminosity": -0.694,
+    "turbulence": -0.962,
+    "pcaX": -0.743,
+    "pcaY": 1.085,
+    "pattern": "Orion"
+  },
+  {
+    "id": 76,
+    "orbitRadius": 1.011,
+    "orbitalSpeed": 1.302,
+    "luminosity": -1.098,
+    "turbulence": -0.637,
+    "pcaX": -0.274,
+    "pcaY": 0.793,
+    "pattern": "Orion"
+  },
+  {
+    "id": 77,
+    "orbitRadius": 1.522,
+    "orbitalSpeed": 1.974,
+    "luminosity": -0.544,
+    "turbulence": -0.171,
+    "pcaX": -1.256,
+    "pcaY": 0.938,
+    "pattern": "Orion"
+  },
+  {
+    "id": 78,
+    "orbitRadius": 1.447,
+    "orbitalSpeed": 1.733,
+    "luminosity": -0.631,
+    "turbulence": -0.966,
+    "pcaX": -1.305,
+    "pcaY": 0.913,
+    "pattern": "Orion"
+  },
+  {
+    "id": 79,
+    "orbitRadius": 1.601,
+    "orbitalSpeed": 1.848,
+    "luminosity": -0.887,
+    "turbulence": -0.101,
+    "pcaX": -1.51,
+    "pcaY": 1.314,
+    "pattern": "Orion"
+  },
+  {
+    "id": 80,
+    "orbitRadius": 1.387,
+    "orbitalSpeed": 1.846,
+    "luminosity": -1.385,
+    "turbulence": -0.438,
+    "pcaX": -1.071,
+    "pcaY": 0.894,
+    "pattern": "Orion"
+  },
+  {
+    "id": 81,
+    "orbitRadius": 1.528,
+    "orbitalSpeed": 1.893,
+    "luminosity": -0.729,
+    "turbulence": -0.811,
+    "pcaX": -0.936,
+    "pcaY": 0.759,
+    "pattern": "Orion"
+  },
+  {
+    "id": 82,
+    "orbitRadius": 1.514,
+    "orbitalSpeed": 1.669,
+    "luminosity": -1.003,
+    "turbulence": -1.137,
+    "pcaX": -0.849,
+    "pcaY": 0.996,
+    "pattern": "Orion"
+  },
+  {
+    "id": 83,
+    "orbitRadius": 1.505,
+    "orbitalSpeed": 1.758,
+    "luminosity": -0.674,
+    "turbulence": -1.062,
+    "pcaX": -0.716,
+    "pcaY": 0.934,
+    "pattern": "Orion"
+  },
+  {
+    "id": 84,
+    "orbitRadius": 1.162,
+    "orbitalSpeed": 1.481,
+    "luminosity": -1.279,
+    "turbulence": -0.951,
+    "pcaX": -1.18,
+    "pcaY": 1.114,
+    "pattern": "Orion"
+  },
+  {
+    "id": 85,
+    "orbitRadius": 1.225,
+    "orbitalSpeed": 1.596,
+    "luminosity": -1.085,
+    "turbulence": -0.045,
+    "pcaX": -1.295,
+    "pcaY": 1.109,
+    "pattern": "Orion"
+  },
+  {
+    "id": 86,
+    "orbitRadius": 1.551,
+    "orbitalSpeed": 2.095,
+    "luminosity": -1.116,
+    "turbulence": -0.98,
+    "pcaX": -0.985,
+    "pcaY": 0.841,
+    "pattern": "Orion"
+  },
+  {
+    "id": 87,
+    "orbitRadius": 1.061,
+    "orbitalSpeed": 1.479,
+    "luminosity": -0.505,
+    "turbulence": -1.145,
+    "pcaX": -1.17,
+    "pcaY": 0.847,
+    "pattern": "Orion"
+  },
+  {
+    "id": 88,
+    "orbitRadius": 1.016,
+    "orbitalSpeed": 1.099,
+    "luminosity": -1.012,
+    "turbulence": -0.25,
+    "pcaX": -0.62,
+    "pcaY": 0.609,
+    "pattern": "Orion"
+  },
+  {
+    "id": 89,
+    "orbitRadius": 1.497,
+    "orbitalSpeed": 1.94,
+    "luminosity": -0.305,
+    "turbulence": -0.158,
+    "pcaX": -0.95,
+    "pcaY": 0.435,
+    "pattern": "Orion"
+  },
+  {
+    "id": 90,
+    "orbitRadius": 1.466,
+    "orbitalSpeed": 1.652,
+    "luminosity": -0.882,
+    "turbulence": -0.167,
+    "pcaX": -1.071,
+    "pcaY": 1.127,
+    "pattern": "Orion"
+  },
+  {
+    "id": 91,
+    "orbitRadius": 0.991,
+    "orbitalSpeed": 1.013,
+    "luminosity": -1.334,
+    "turbulence": -0.953,
+    "pcaX": -1.12,
+    "pcaY": 0.873,
+    "pattern": "Orion"
+  },
+  {
+    "id": 92,
+    "orbitRadius": 1.521,
+    "orbitalSpeed": 2.104,
+    "luminosity": -0.503,
+    "turbulence": -0.678,
+    "pcaX": -1.401,
+    "pcaY": 1.225,
+    "pattern": "Orion"
+  },
+  {
+    "id": 93,
+    "orbitRadius": 1.122,
+    "orbitalSpeed": 1.366,
+    "luminosity": -0.939,
+    "turbulence": -0.704,
+    "pcaX": -1.253,
+    "pcaY": 1.011,
+    "pattern": "Orion"
+  },
+  {
+    "id": 94,
+    "orbitRadius": 1.206,
+    "orbitalSpeed": 1.253,
+    "luminosity": -0.928,
+    "turbulence": -0.362,
+    "pcaX": -1.3,
+    "pcaY": 0.367,
+    "pattern": "Orion"
+  },
+  {
+    "id": 95,
+    "orbitRadius": 1.345,
+    "orbitalSpeed": 1.391,
+    "luminosity": -0.854,
+    "turbulence": -0.989,
+    "pcaX": -0.725,
+    "pcaY": 0.437,
+    "pattern": "Orion"
+  },
+  {
+    "id": 96,
+    "orbitRadius": 1.314,
+    "orbitalSpeed": 1.781,
+    "luminosity": -1.05,
+    "turbulence": -0.37,
+    "pcaX": -0.928,
+    "pcaY": 0.706,
+    "pattern": "Orion"
+  },
+  {
+    "id": 97,
+    "orbitRadius": 1.105,
+    "orbitalSpeed": 1.202,
+    "luminosity": -0.881,
+    "turbulence": 0.123,
+    "pcaX": -1.069,
+    "pcaY": 0.556,
+    "pattern": "Orion"
+  },
+  {
+    "id": 98,
+    "orbitRadius": 1.161,
+    "orbitalSpeed": 1.609,
+    "luminosity": -0.785,
+    "turbulence": -0.84,
+    "pcaX": -1.242,
+    "pcaY": 0.594,
+    "pattern": "Orion"
+  },
+  {
+    "id": 99,
+    "orbitRadius": 1.097,
+    "orbitalSpeed": 1.225,
+    "luminosity": -0.536,
+    "turbulence": -0.5,
+    "pcaX": -0.769,
+    "pcaY": 0.206,
+    "pattern": "Orion"
+  },
+  {
+    "id": 100,
+    "orbitRadius": 1.054,
+    "orbitalSpeed": 1.161,
+    "luminosity": 0.293,
+    "turbulence": -0.463,
+    "pcaX": -1.402,
+    "pcaY": 0.276,
+    "pattern": "Orion"
+  },
+  {
+    "id": 101,
+    "orbitRadius": 1.143,
+    "orbitalSpeed": 1.286,
+    "luminosity": -0.455,
+    "turbulence": -0.612,
+    "pcaX": -0.803,
+    "pcaY": 0.699,
+    "pattern": "Orion"
+  },
+  {
+    "id": 102,
+    "orbitRadius": 1.464,
+    "orbitalSpeed": 1.744,
+    "luminosity": 0.034,
+    "turbulence": -0.492,
+    "pcaX": -1.488,
+    "pcaY": 0.08,
+    "pattern": "Orion"
+  },
+  {
+    "id": 103,
+    "orbitRadius": 1.461,
+    "orbitalSpeed": 1.916,
+    "luminosity": -0.158,
+    "turbulence": 0.216,
+    "pcaX": -1.634,
+    "pcaY": 0.37,
+    "pattern": "Orion"
+  },
+  {
+    "id": 104,
+    "orbitRadius": 1.006,
+    "orbitalSpeed": 1.231,
+    "luminosity": -0.287,
+    "turbulence": -0.508,
+    "pcaX": -1.188,
+    "pcaY": -0.024,
+    "pattern": "Orion"
+  },
+  {
+    "id": 105,
+    "orbitRadius": 1.578,
+    "orbitalSpeed": 2.071,
+    "luminosity": 0.39,
+    "turbulence": 0.337,
+    "pcaX": -1.833,
+    "pcaY": -0.246,
+    "pattern": "Orion"
+  },
+  {
+    "id": 106,
+    "orbitRadius": 1.545,
+    "orbitalSpeed": 1.811,
+    "luminosity": 0.304,
+    "turbulence": 0.543,
+    "pcaX": -1.501,
+    "pcaY": 0.148,
+    "pattern": "Orion"
+  },
+  {
+    "id": 107,
+    "orbitRadius": 1.358,
+    "orbitalSpeed": 1.473,
+    "luminosity": -0.704,
+    "turbulence": -0.381,
+    "pcaX": -1.547,
+    "pcaY": 0.459,
+    "pattern": "Orion"
+  },
+  {
+    "id": 108,
+    "orbitRadius": 1.373,
+    "orbitalSpeed": 1.516,
+    "luminosity": -0.341,
+    "turbulence": -0.54,
+    "pcaX": -1.315,
+    "pcaY": 0.661,
+    "pattern": "Orion"
+  },
+  {
+    "id": 109,
+    "orbitRadius": 1.326,
+    "orbitalSpeed": 1.408,
+    "luminosity": -0.557,
+    "turbulence": -0.333,
+    "pcaX": -1.506,
+    "pcaY": 0.097,
+    "pattern": "Orion"
+  },
+  {
+    "id": 110,
+    "orbitRadius": 1.103,
+    "orbitalSpeed": 1.47,
+    "luminosity": 0.401,
+    "turbulence": 0.591,
+    "pcaX": -1.315,
+    "pcaY": -0.396,
+    "pattern": "Orion"
+  },
+  {
+    "id": 111,
+    "orbitRadius": 1.516,
+    "orbitalSpeed": 2.064,
+    "luminosity": 0.856,
+    "turbulence": -0.1,
+    "pcaX": -1.129,
+    "pcaY": -0.47,
+    "pattern": "Orion"
+  },
+  {
+    "id": 112,
+    "orbitRadius": 1.146,
+    "orbitalSpeed": 1.6,
+    "luminosity": 0.643,
+    "turbulence": -0.2,
+    "pcaX": -1.33,
+    "pcaY": -0.029,
+    "pattern": "Orion"
+  },
+  {
+    "id": 113,
+    "orbitRadius": 1.519,
+    "orbitalSpeed": 1.674,
+    "luminosity": -0.551,
+    "turbulence": -0.282,
+    "pcaX": -1.291,
+    "pcaY": -0.143,
+    "pattern": "Orion"
+  },
+  {
+    "id": 114,
+    "orbitRadius": 1.089,
+    "orbitalSpeed": 1.228,
+    "luminosity": 0.248,
+    "turbulence": 0.176,
+    "pcaX": -0.721,
+    "pcaY": -0.481,
+    "pattern": "Orion"
+  },
+  {
+    "id": 115,
+    "orbitRadius": 1.072,
+    "orbitalSpeed": 1.181,
+    "luminosity": 0.46,
+    "turbulence": 0.029,
+    "pcaX": -1.319,
+    "pcaY": -0.408,
+    "pattern": "Orion"
+  },
+  {
+    "id": 116,
+    "orbitRadius": 1.005,
+    "orbitalSpeed": 1.173,
+    "luminosity": 0.506,
+    "turbulence": 0.307,
+    "pcaX": -0.718,
+    "pcaY": -0.398,
+    "pattern": "Orion"
+  },
+  {
+    "id": 117,
+    "orbitRadius": 1.413,
+    "orbitalSpeed": 1.975,
+    "luminosity": 0.72,
+    "turbulence": 0.239,
+    "pcaX": -1.257,
+    "pcaY": -0.172,
+    "pattern": "Orion"
+  },
+  {
+    "id": 118,
+    "orbitRadius": 1.641,
+    "orbitalSpeed": 1.776,
+    "luminosity": 0.561,
+    "turbulence": 0.293,
+    "pcaX": -1.355,
+    "pcaY": -0.309,
+    "pattern": "Orion"
+  },
+  {
+    "id": 119,
+    "orbitRadius": 1.05,
+    "orbitalSpeed": 1.314,
+    "luminosity": 1.037,
+    "turbulence": -0.095,
+    "pcaX": -0.885,
+    "pcaY": -0.515,
+    "pattern": "Orion"
+  },
+  {
+    "id": 120,
+    "orbitRadius": 1.512,
+    "orbitalSpeed": 1.551,
+    "luminosity": 1.008,
+    "turbulence": 0.887,
+    "pcaX": -1.613,
+    "pcaY": -0.664,
+    "pattern": "Orion"
+  },
+  {
+    "id": 121,
+    "orbitRadius": 1.38,
+    "orbitalSpeed": 1.836,
+    "luminosity": 0.512,
+    "turbulence": 0.366,
+    "pcaX": -1.426,
+    "pcaY": -0.181,
+    "pattern": "Orion"
+  },
+  {
+    "id": 122,
+    "orbitRadius": 1.619,
+    "orbitalSpeed": 1.753,
+    "luminosity": 0.341,
+    "turbulence": -0.289,
+    "pcaX": -1.429,
+    "pcaY": -0.149,
+    "pattern": "Orion"
+  },
+  {
+    "id": 123,
+    "orbitRadius": 1.616,
+    "orbitalSpeed": 1.862,
+    "luminosity": 0.42,
+    "turbulence": -0.313,
+    "pcaX": -1.896,
+    "pcaY": -0.311,
+    "pattern": "Orion"
+  },
+  {
+    "id": 124,
+    "orbitRadius": 1.519,
+    "orbitalSpeed": 1.708,
+    "luminosity": 0.42,
+    "turbulence": 0.946,
+    "pcaX": -1.415,
+    "pcaY": -0.968,
+    "pattern": "Orion"
+  },
+  {
+    "id": 125,
+    "orbitRadius": 1.37,
+    "orbitalSpeed": 1.696,
+    "luminosity": 1.146,
+    "turbulence": 0.294,
+    "pcaX": -1.267,
+    "pcaY": -0.544,
+    "pattern": "Orion"
+  },
+  {
+    "id": 126,
+    "orbitRadius": 1.421,
+    "orbitalSpeed": 1.544,
+    "luminosity": 0.093,
+    "turbulence": -0.166,
+    "pcaX": -1.342,
+    "pcaY": -0.185,
+    "pattern": "Orion"
+  },
+  {
+    "id": 127,
+    "orbitRadius": 1.294,
+    "orbitalSpeed": 1.654,
+    "luminosity": 0.482,
+    "turbulence": 0.184,
+    "pcaX": -0.828,
+    "pcaY": -0.615,
+    "pattern": "Orion"
+  },
+  {
+    "id": 128,
+    "orbitRadius": 1.625,
+    "orbitalSpeed": 2.186,
+    "luminosity": 0.27,
+    "turbulence": -0.238,
+    "pcaX": -1.563,
+    "pcaY": -0.138,
+    "pattern": "Orion"
+  },
+  {
+    "id": 129,
+    "orbitRadius": 1.335,
+    "orbitalSpeed": 1.583,
+    "luminosity": 1.145,
+    "turbulence": 0.175,
+    "pcaX": -1.016,
+    "pcaY": -0.312,
+    "pattern": "Orion"
+  },
+  {
+    "id": 130,
+    "orbitRadius": 1.606,
+    "orbitalSpeed": 1.845,
+    "luminosity": 1.448,
+    "turbulence": 0.711,
+    "pcaX": -0.935,
+    "pcaY": -1.332,
+    "pattern": "Orion"
+  },
+  {
+    "id": 131,
+    "orbitRadius": 1.451,
+    "orbitalSpeed": 1.938,
+    "luminosity": 1.31,
+    "turbulence": 0.288,
+    "pcaX": -1.056,
+    "pcaY": -1.069,
+    "pattern": "Orion"
+  },
+  {
+    "id": 132,
+    "orbitRadius": 1.102,
+    "orbitalSpeed": 1.185,
+    "luminosity": 1.015,
+    "turbulence": 0.777,
+    "pcaX": -0.719,
+    "pcaY": -0.941,
+    "pattern": "Orion"
+  },
+  {
+    "id": 133,
+    "orbitRadius": 1.077,
+    "orbitalSpeed": 1.356,
+    "luminosity": 1.126,
+    "turbulence": 0.791,
+    "pcaX": -0.682,
+    "pcaY": -0.795,
+    "pattern": "Orion"
+  },
+  {
+    "id": 134,
+    "orbitRadius": 1.618,
+    "orbitalSpeed": 2.207,
+    "luminosity": 0.508,
+    "turbulence": 0.737,
+    "pcaX": -1.194,
+    "pcaY": -0.954,
+    "pattern": "Orion"
+  },
+  {
+    "id": 135,
+    "orbitRadius": 1.037,
+    "orbitalSpeed": 1.176,
+    "luminosity": 1.166,
+    "turbulence": 1.073,
+    "pcaX": -0.804,
+    "pcaY": -0.429,
+    "pattern": "Orion"
+  },
+  {
+    "id": 136,
+    "orbitRadius": 1.264,
+    "orbitalSpeed": 1.566,
+    "luminosity": 1.235,
+    "turbulence": 0.656,
+    "pcaX": -1.256,
+    "pcaY": -0.831,
+    "pattern": "Orion"
+  },
+  {
+    "id": 137,
+    "orbitRadius": 1.507,
+    "orbitalSpeed": 1.61,
+    "luminosity": 0.944,
+    "turbulence": 1.058,
+    "pcaX": -1.173,
+    "pcaY": -1.268,
+    "pattern": "Orion"
+  },
+  {
+    "id": 138,
+    "orbitRadius": 1.108,
+    "orbitalSpeed": 1.324,
+    "luminosity": 0.758,
+    "turbulence": 0.396,
+    "pcaX": -1.102,
+    "pcaY": -0.393,
+    "pattern": "Orion"
+  },
+  {
+    "id": 139,
+    "orbitRadius": 1.072,
+    "orbitalSpeed": 1.389,
+    "luminosity": 1.316,
+    "turbulence": 0.682,
+    "pcaX": -1.23,
+    "pcaY": -0.52,
+    "pattern": "Orion"
+  },
+  {
+    "id": 140,
+    "orbitRadius": 1.585,
+    "orbitalSpeed": 2.132,
+    "luminosity": 1.326,
+    "turbulence": 0.845,
+    "pcaX": -1.025,
+    "pcaY": -1.574,
+    "pattern": "Orion"
+  },
+  {
+    "id": 141,
+    "orbitRadius": 1.279,
+    "orbitalSpeed": 1.621,
+    "luminosity": 0.703,
+    "turbulence": 0.378,
+    "pcaX": -0.935,
+    "pcaY": -0.732,
+    "pattern": "Orion"
+  },
+  {
+    "id": 142,
+    "orbitRadius": 1.579,
+    "orbitalSpeed": 1.659,
+    "luminosity": 0.774,
+    "turbulence": 0.675,
+    "pcaX": -0.49,
+    "pcaY": -1.309,
+    "pattern": "Orion"
+  },
+  {
+    "id": 143,
+    "orbitRadius": 1.647,
+    "orbitalSpeed": 2.29,
+    "luminosity": 1.083,
+    "turbulence": 0.511,
+    "pcaX": -1.094,
+    "pcaY": -1.117,
+    "pattern": "Orion"
+  },
+  {
+    "id": 144,
+    "orbitRadius": 1.187,
+    "orbitalSpeed": 1.394,
+    "luminosity": 0.913,
+    "turbulence": 0.299,
+    "pcaX": -0.962,
+    "pcaY": -0.499,
+    "pattern": "Orion"
+  },
+  {
+    "id": 145,
+    "orbitRadius": 0.958,
+    "orbitalSpeed": 1.108,
+    "luminosity": 1.156,
+    "turbulence": 0.414,
+    "pcaX": -0.22,
+    "pcaY": -0.867,
+    "pattern": "Orion"
+  },
+  {
+    "id": 146,
+    "orbitRadius": 1.004,
+    "orbitalSpeed": 1.111,
+    "luminosity": 0.777,
+    "turbulence": 0.081,
+    "pcaX": -0.386,
+    "pcaY": -0.607,
+    "pattern": "Orion"
+  },
+  {
+    "id": 147,
+    "orbitRadius": 1.405,
+    "orbitalSpeed": 1.765,
+    "luminosity": 1.034,
+    "turbulence": 0.423,
+    "pcaX": -0.332,
+    "pcaY": -0.926,
+    "pattern": "Orion"
+  },
+  {
+    "id": 148,
+    "orbitRadius": 1.587,
+    "orbitalSpeed": 1.638,
+    "luminosity": 0.114,
+    "turbulence": 1.2,
+    "pcaX": -0.819,
+    "pcaY": -1.136,
+    "pattern": "Orion"
+  },
+  {
+    "id": 149,
+    "orbitRadius": 1.51,
+    "orbitalSpeed": 1.986,
+    "luminosity": 0.855,
+    "turbulence": 0.719,
+    "pcaX": -0.868,
+    "pcaY": -1.459,
+    "pattern": "Orion"
+  },
+  {
+    "id": 150,
+    "orbitRadius": 1.23,
+    "orbitalSpeed": 1.544,
+    "luminosity": 0.631,
+    "turbulence": 0.5,
+    "pcaX": -0.83,
+    "pcaY": -1.52,
+    "pattern": "Orion"
+  },
+  {
+    "id": 151,
+    "orbitRadius": 1.218,
+    "orbitalSpeed": 1.691,
+    "luminosity": 1.243,
+    "turbulence": 0.242,
+    "pcaX": -0.635,
+    "pcaY": -1.144,
+    "pattern": "Orion"
+  },
+  {
+    "id": 152,
+    "orbitRadius": 1.337,
+    "orbitalSpeed": 1.421,
+    "luminosity": 0.149,
+    "turbulence": 0.563,
+    "pcaX": -0.47,
+    "pcaY": -1.485,
+    "pattern": "Orion"
+  },
+  {
+    "id": 153,
+    "orbitRadius": 1.29,
+    "orbitalSpeed": 1.728,
+    "luminosity": 1.165,
+    "turbulence": 1.211,
+    "pcaX": -0.318,
+    "pcaY": -1.05,
+    "pattern": "Orion"
+  },
+  {
+    "id": 154,
+    "orbitRadius": 1.1,
+    "orbitalSpeed": 1.535,
+    "luminosity": -0.137,
+    "turbulence": 0.651,
+    "pcaX": 0.159,
+    "pcaY": -0.969,
+    "pattern": "Orion"
+  },
+  {
+    "id": 155,
+    "orbitRadius": 0.985,
+    "orbitalSpeed": 1.221,
+    "luminosity": 0.703,
+    "turbulence": 0.328,
+    "pcaX": -0.035,
+    "pcaY": -1.037,
+    "pattern": "Orion"
+  },
+  {
+    "id": 156,
+    "orbitRadius": 1.365,
+    "orbitalSpeed": 1.871,
+    "luminosity": -0.362,
+    "turbulence": 0.166,
+    "pcaX": -0.146,
+    "pcaY": -1.523,
+    "pattern": "Orion"
+  },
+  {
+    "id": 157,
+    "orbitRadius": 1.641,
+    "orbitalSpeed": 1.794,
+    "luminosity": 0.087,
+    "turbulence": 1.159,
+    "pcaX": -0.455,
+    "pcaY": -1.911,
+    "pattern": "Orion"
+  },
+  {
+    "id": 158,
+    "orbitRadius": 0.951,
+    "orbitalSpeed": 1.277,
+    "luminosity": 0.52,
+    "turbulence": 0.759,
+    "pcaX": 0.072,
+    "pcaY": -1.216,
+    "pattern": "Orion"
+  },
+  {
+    "id": 159,
+    "orbitRadius": 1.626,
+    "orbitalSpeed": 2.069,
+    "luminosity": -0.081,
+    "turbulence": 0.765,
+    "pcaX": -0.279,
+    "pcaY": -1.647,
+    "pattern": "Orion"
+  },
+  {
+    "id": 160,
+    "orbitRadius": 1.159,
+    "orbitalSpeed": 1.518,
+    "luminosity": -0.243,
+    "turbulence": 0.166,
+    "pcaX": -0.322,
+    "pcaY": -0.981,
+    "pattern": "Orion"
+  },
+  {
+    "id": 161,
+    "orbitRadius": 1.066,
+    "orbitalSpeed": 1.28,
+    "luminosity": 0.547,
+    "turbulence": 0.684,
+    "pcaX": -0.714,
+    "pcaY": -1.093,
+    "pattern": "Orion"
+  },
+  {
+    "id": 162,
+    "orbitRadius": 1.023,
+    "orbitalSpeed": 1.118,
+    "luminosity": 0.695,
+    "turbulence": 0.605,
+    "pcaX": -0.62,
+    "pcaY": -0.753,
+    "pattern": "Orion"
+  },
+  {
+    "id": 163,
+    "orbitRadius": 1.211,
+    "orbitalSpeed": 1.242,
+    "luminosity": 0.234,
+    "turbulence": 0.71,
+    "pcaX": -0.097,
+    "pcaY": -1.544,
+    "pattern": "Orion"
+  },
+  {
+    "id": 164,
+    "orbitRadius": 1.018,
+    "orbitalSpeed": 1.333,
+    "luminosity": 0.284,
+    "turbulence": 0.126,
+    "pcaX": -0.231,
+    "pcaY": -0.954,
+    "pattern": "Orion"
+  },
+  {
+    "id": 165,
+    "orbitRadius": 1.1,
+    "orbitalSpeed": 1.427,
+    "luminosity": -0.074,
+    "turbulence": 0.29,
+    "pcaX": 0.245,
+    "pcaY": -1.134,
+    "pattern": "Orion"
+  },
+  {
+    "id": 166,
+    "orbitRadius": 1.598,
+    "orbitalSpeed": 2.004,
+    "luminosity": 0.675,
+    "turbulence": 0.99,
+    "pcaX": -0.339,
+    "pcaY": -1.297,
+    "pattern": "Orion"
+  },
+  {
+    "id": 167,
+    "orbitRadius": 1.085,
+    "orbitalSpeed": 1.236,
+    "luminosity": -0.003,
+    "turbulence": 0.416,
+    "pcaX": -0.023,
+    "pcaY": -0.994,
+    "pattern": "Orion"
+  },
+  {
+    "id": 168,
+    "orbitRadius": 1.332,
+    "orbitalSpeed": 1.397,
+    "luminosity": -0.146,
+    "turbulence": 0.721,
+    "pcaX": 0.242,
+    "pcaY": -1.571,
+    "pattern": "Orion"
+  },
+  {
+    "id": 169,
+    "orbitRadius": 1.454,
+    "orbitalSpeed": 1.811,
+    "luminosity": 0.274,
+    "turbulence": 0.921,
+    "pcaX": 0.289,
+    "pcaY": -1.404,
+    "pattern": "Orion"
+  },
+  {
+    "id": 170,
+    "orbitRadius": 0.987,
+    "orbitalSpeed": 1.35,
+    "luminosity": -0.392,
+    "turbulence": 0.923,
+    "pcaX": 0.437,
+    "pcaY": -1.361,
+    "pattern": "Orion"
+  },
+  {
+    "id": 171,
+    "orbitRadius": 1.439,
+    "orbitalSpeed": 1.935,
+    "luminosity": 0.358,
+    "turbulence": 0.438,
+    "pcaX": 0.048,
+    "pcaY": -1.412,
+    "pattern": "Orion"
+  },
+  {
+    "id": 172,
+    "orbitRadius": 1.401,
+    "orbitalSpeed": 1.635,
+    "luminosity": -0.092,
+    "turbulence": 0.277,
+    "pcaX": 0.352,
+    "pcaY": -1.192,
+    "pattern": "Orion"
+  },
+  {
+    "id": 173,
+    "orbitRadius": 1.416,
+    "orbitalSpeed": 1.623,
+    "luminosity": -0.659,
+    "turbulence": 0.089,
+    "pcaX": 0.25,
+    "pcaY": -1.428,
+    "pattern": "Orion"
+  },
+  {
+    "id": 174,
+    "orbitRadius": 1.026,
+    "orbitalSpeed": 1.138,
+    "luminosity": -0.66,
+    "turbulence": 0.123,
+    "pcaX": -0.037,
+    "pcaY": -1.13,
+    "pattern": "Orion"
+  },
+  {
+    "id": 175,
+    "orbitRadius": 1.496,
+    "orbitalSpeed": 1.976,
+    "luminosity": 0.157,
+    "turbulence": -0.18,
+    "pcaX": 0.481,
+    "pcaY": -1.175,
+    "pattern": "Orion"
+  },
+  {
+    "id": 176,
+    "orbitRadius": 1.301,
+    "orbitalSpeed": 1.391,
+    "luminosity": -1.024,
+    "turbulence": 0.604,
+    "pcaX": 0.313,
+    "pcaY": -1.486,
+    "pattern": "Orion"
+  },
+  {
+    "id": 177,
+    "orbitRadius": 1.113,
+    "orbitalSpeed": 1.203,
+    "luminosity": -0.796,
+    "turbulence": -0.591,
+    "pcaX": 0.271,
+    "pcaY": -0.888,
+    "pattern": "Orion"
+  },
+  {
+    "id": 178,
+    "orbitRadius": 1.557,
+    "orbitalSpeed": 2.178,
+    "luminosity": -1.052,
+    "turbulence": -0.049,
+    "pcaX": 0.724,
+    "pcaY": -1.828,
+    "pattern": "Orion"
+  },
+  {
+    "id": 179,
+    "orbitRadius": 1.259,
+    "orbitalSpeed": 1.692,
+    "luminosity": -0.484,
+    "turbulence": 0.266,
+    "pcaX": 0.755,
+    "pcaY": -1.102,
+    "pattern": "Orion"
+  },
+  {
+    "id": 180,
+    "orbitRadius": 1.407,
+    "orbitalSpeed": 1.445,
+    "luminosity": -0.316,
+    "turbulence": 0.126,
+    "pcaX": 0.453,
+    "pcaY": -1.501,
+    "pattern": "Orion"
+  },
+  {
+    "id": 181,
+    "orbitRadius": 1.578,
+    "orbitalSpeed": 1.646,
+    "luminosity": -1.451,
+    "turbulence": 0.297,
+    "pcaX": 0.882,
+    "pcaY": -1.02,
+    "pattern": "Orion"
+  },
+  {
+    "id": 182,
+    "orbitRadius": 1.039,
+    "orbitalSpeed": 1.343,
+    "luminosity": -0.209,
+    "turbulence": 0.019,
+    "pcaX": 0.445,
+    "pcaY": -1.369,
+    "pattern": "Orion"
+  },
+  {
+    "id": 183,
+    "orbitRadius": 1.251,
+    "orbitalSpeed": 1.629,
+    "luminosity": -0.551,
+    "turbulence": -0.519,
+    "pcaX": 0.276,
+    "pcaY": -1.09,
+    "pattern": "Orion"
+  },
+  {
+    "id": 184,
+    "orbitRadius": 1.233,
+    "orbitalSpeed": 1.618,
+    "luminosity": -0.638,
+    "turbulence": 0.321,
+    "pcaX": 0.588,
+    "pcaY": -0.62,
+    "pattern": "Orion"
+  },
+  {
+    "id": 185,
+    "orbitRadius": 1.247,
+    "orbitalSpeed": 1.628,
+    "luminosity": -1.413,
+    "turbulence": -0.337,
+    "pcaX": 1.21,
+    "pcaY": -1.232,
+    "pattern": "Orion"
+  },
+  {
+    "id": 186,
+    "orbitRadius": 1.357,
+    "orbitalSpeed": 1.412,
+    "luminosity": -0.485,
+    "turbulence": -0.188,
+    "pcaX": 1.006,
+    "pcaY": -1.106,
+    "pattern": "Orion"
+  },
+  {
+    "id": 187,
+    "orbitRadius": 1.003,
+    "orbitalSpeed": 1.062,
+    "luminosity": -1.01,
+    "turbulence": 0.679,
+    "pcaX": 0.235,
+    "pcaY": -0.77,
+    "pattern": "Orion"
+  },
+  {
+    "id": 188,
+    "orbitRadius": 1.026,
+    "orbitalSpeed": 1.191,
+    "luminosity": -0.869,
+    "turbulence": -0.514,
+    "pcaX": 0.74,
+    "pcaY": -0.707,
+    "pattern": "Orion"
+  },
+  {
+    "id": 189,
+    "orbitRadius": 1.554,
+    "orbitalSpeed": 1.911,
+    "luminosity": -0.731,
+    "turbulence": -0.307,
+    "pcaX": 0.459,
+    "pcaY": -1.304,
+    "pattern": "Orion"
+  },
+  {
+    "id": 190,
+    "orbitRadius": 1.536,
+    "orbitalSpeed": 2.057,
+    "luminosity": -0.579,
+    "turbulence": -0.616,
+    "pcaX": 0.914,
+    "pcaY": -0.976,
+    "pattern": "Orion"
+  },
+  {
+    "id": 191,
+    "orbitRadius": 1.288,
+    "orbitalSpeed": 1.761,
+    "luminosity": -0.62,
+    "turbulence": 0.147,
+    "pcaX": 0.828,
+    "pcaY": -1.418,
+    "pattern": "Orion"
+  },
+  {
+    "id": 192,
+    "orbitRadius": 1.637,
+    "orbitalSpeed": 2.206,
+    "luminosity": -0.84,
+    "turbulence": -0.507,
+    "pcaX": 1.312,
+    "pcaY": -1.137,
+    "pattern": "Orion"
+  },
+  {
+    "id": 193,
+    "orbitRadius": 1.529,
+    "orbitalSpeed": 1.983,
+    "luminosity": -0.865,
+    "turbulence": 0.381,
+    "pcaX": 0.517,
+    "pcaY": -1.055,
+    "pattern": "Orion"
+  },
+  {
+    "id": 194,
+    "orbitRadius": 0.977,
+    "orbitalSpeed": 1.036,
+    "luminosity": -0.849,
+    "turbulence": 0.206,
+    "pcaX": 0.637,
+    "pcaY": -0.335,
+    "pattern": "Orion"
+  },
+  {
+    "id": 195,
+    "orbitRadius": 1.053,
+    "orbitalSpeed": 1.072,
+    "luminosity": -1.17,
+    "turbulence": -0.419,
+    "pcaX": 0.699,
+    "pcaY": -0.731,
+    "pattern": "Orion"
+  },
+  {
+    "id": 196,
+    "orbitRadius": 1.157,
+    "orbitalSpeed": 1.206,
+    "luminosity": -0.509,
+    "turbulence": -0.749,
+    "pcaX": 1.08,
+    "pcaY": -0.718,
+    "pattern": "Orion"
+  },
+  {
+    "id": 197,
+    "orbitRadius": 1.039,
+    "orbitalSpeed": 1.419,
+    "luminosity": -1.275,
+    "turbulence": -0.253,
+    "pcaX": 0.465,
+    "pcaY": -0.36,
+    "pattern": "Orion"
+  },
+  {
+    "id": 198,
+    "orbitRadius": 0.964,
+    "orbitalSpeed": 1.011,
+    "luminosity": -0.912,
+    "turbulence": -0.682,
+    "pcaX": 0.954,
+    "pcaY": -0.36,
+    "pattern": "Orion"
+  },
+  {
+    "id": 199,
+    "orbitRadius": 1.11,
+    "orbitalSpeed": 1.352,
+    "luminosity": -0.996,
+    "turbulence": -1.042,
+    "pcaX": 1.033,
+    "pcaY": -0.457,
+    "pattern": "Orion"
+  },
+  {
+    "id": 200,
+    "orbitRadius": 1.271,
+    "orbitalSpeed": 1.675,
+    "luminosity": -0.962,
+    "turbulence": -0.051,
+    "pcaX": 1.142,
+    "pcaY": -0.631,
+    "pattern": "Orion"
+  },
+  {
+    "id": 201,
+    "orbitRadius": 1.229,
+    "orbitalSpeed": 1.51,
+    "luminosity": -0.615,
+    "turbulence": 0.013,
+    "pcaX": 0.51,
+    "pcaY": -0.671,
+    "pattern": "Orion"
+  },
+  {
+    "id": 202,
+    "orbitRadius": 1.049,
+    "orbitalSpeed": 1.077,
+    "luminosity": -0.781,
+    "turbulence": -0.215,
+    "pcaX": 0.856,
+    "pcaY": -0.981,
+    "pattern": "Orion"
+  },
+  {
+    "id": 203,
+    "orbitRadius": 1.434,
+    "orbitalSpeed": 1.496,
+    "luminosity": -0.609,
+    "turbulence": -1.199,
+    "pcaX": 1.117,
+    "pcaY": 0.029,
+    "pattern": "Orion"
+  },
+  {
+    "id": 204,
+    "orbitRadius": 0.973,
+    "orbitalSpeed": 1.108,
+    "luminosity": -0.676,
+    "turbulence": -0.098,
+    "pcaX": 0.57,
+    "pcaY": -0.709,
+    "pattern": "Orion"
+  },
+  {
+    "id": 205,
+    "orbitRadius": 1.614,
+    "orbitalSpeed": 1.871,
+    "luminosity": -0.578,
+    "turbulence": 0.178,
+    "pcaX": 0.973,
+    "pcaY": -1.048,
+    "pattern": "Orion"
+  },
+  {
+    "id": 206,
+    "orbitRadius": 1.507,
+    "orbitalSpeed": 1.52,
+    "luminosity": -0.835,
+    "turbulence": -0.221,
+    "pcaX": 1.579,
+    "pcaY": -0.87,
+    "pattern": "Orion"
+  },
+  {
+    "id": 207,
+    "orbitRadius": 1.497,
+    "orbitalSpeed": 2.01,
+    "luminosity": -0.446,
+    "turbulence": -0.329,
+    "pcaX": 1.607,
+    "pcaY": -0.464,
+    "pattern": "Orion"
+  },
+  {
+    "id": 208,
+    "orbitRadius": 1.368,
+    "orbitalSpeed": 1.825,
+    "luminosity": -0.9,
+    "turbulence": -0.946,
+    "pcaX": 1.3,
+    "pcaY": -0.803,
+    "pattern": "Orion"
+  },
+  {
+    "id": 209,
+    "orbitRadius": 1.214,
+    "orbitalSpeed": 1.572,
+    "luminosity": -0.924,
+    "turbulence": -1.087,
+    "pcaX": 1.445,
+    "pcaY": -0.16,
+    "pattern": "Orion"
+  },
+  {
+    "id": 210,
+    "orbitRadius": 1.14,
+    "orbitalSpeed": 1.487,
+    "luminosity": -0.718,
+    "turbulence": -0.612,
+    "pcaX": 1.174,
+    "pcaY": -0.837,
+    "pattern": "Orion"
+  },
+  {
+    "id": 211,
+    "orbitRadius": 1.284,
+    "orbitalSpeed": 1.761,
+    "luminosity": 0.427,
+    "turbulence": -0.729,
+    "pcaX": 1.581,
+    "pcaY": -0.248,
+    "pattern": "Orion"
+  },
+  {
+    "id": 212,
+    "orbitRadius": 1.325,
+    "orbitalSpeed": 1.711,
+    "luminosity": -1.133,
+    "turbulence": -0.792,
+    "pcaX": 1.348,
+    "pcaY": -0.556,
+    "pattern": "Orion"
+  },
+  {
+    "id": 213,
+    "orbitRadius": 1.052,
+    "orbitalSpeed": 1.429,
+    "luminosity": -0.473,
+    "turbulence": -0.195,
+    "pcaX": 1.079,
+    "pcaY": 0.005,
+    "pattern": "Orion"
+  },
+  {
+    "id": 214,
+    "orbitRadius": 1.386,
+    "orbitalSpeed": 1.558,
+    "luminosity": 0.252,
+    "turbulence": -0.953,
+    "pcaX": 1.55,
+    "pcaY": 0.271,
+    "pattern": "Orion"
+  },
+  {
+    "id": 215,
+    "orbitRadius": 0.993,
+    "orbitalSpeed": 1.291,
+    "luminosity": -0.227,
+    "turbulence": -0.161,
+    "pcaX": 0.968,
+    "pcaY": 0,
+    "pattern": "Orion"
+  },
+  {
+    "id": 216,
+    "orbitRadius": 1.589,
+    "orbitalSpeed": 2.099,
+    "luminosity": -0.069,
+    "turbulence": -1.29,
+    "pcaX": 1.483,
+    "pcaY": -0.052,
+    "pattern": "Orion"
+  },
+  {
+    "id": 217,
+    "orbitRadius": 0.968,
+    "orbitalSpeed": 1.165,
+    "luminosity": -0.798,
+    "turbulence": -0.624,
+    "pcaX": 0.81,
+    "pcaY": 0.06,
+    "pattern": "Orion"
+  },
+  {
+    "id": 218,
+    "orbitRadius": 1.298,
+    "orbitalSpeed": 1.381,
+    "luminosity": 0.62,
+    "turbulence": -0.22,
+    "pcaX": 0.916,
+    "pcaY": 0.334,
+    "pattern": "Orion"
+  },
+  {
+    "id": 219,
+    "orbitRadius": 1.053,
+    "orbitalSpeed": 1.408,
+    "luminosity": -0.297,
+    "turbulence": -0.601,
+    "pcaX": 0.805,
+    "pcaY": 0.455,
+    "pattern": "Orion"
+  },
+  {
+    "id": 220,
+    "orbitRadius": 2.211,
+    "orbitalSpeed": 3.28,
+    "luminosity": -0.576,
+    "turbulence": -0.611,
+    "pcaX": -0.748,
+    "pcaY": 1.761,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 221,
+    "orbitRadius": 1.968,
+    "orbitalSpeed": 2.781,
+    "luminosity": -0.689,
+    "turbulence": -0.238,
+    "pcaX": -1.079,
+    "pcaY": 1.545,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 222,
+    "orbitRadius": 2.417,
+    "orbitalSpeed": 2.938,
+    "luminosity": 0.082,
+    "turbulence": -0.073,
+    "pcaX": -1.197,
+    "pcaY": 1.659,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 223,
+    "orbitRadius": 1.94,
+    "orbitalSpeed": 3.111,
+    "luminosity": -0.111,
+    "turbulence": -0.664,
+    "pcaX": -0.821,
+    "pcaY": 1.948,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 224,
+    "orbitRadius": 2.083,
+    "orbitalSpeed": 3.199,
+    "luminosity": -0.236,
+    "turbulence": 0.342,
+    "pcaX": -1.185,
+    "pcaY": 1.709,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 225,
+    "orbitRadius": 2.428,
+    "orbitalSpeed": 3.692,
+    "luminosity": -0.055,
+    "turbulence": 0.146,
+    "pcaX": -1.178,
+    "pcaY": 1.819,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 226,
+    "orbitRadius": 2.118,
+    "orbitalSpeed": 3.145,
+    "luminosity": -0.048,
+    "turbulence": -0.649,
+    "pcaX": -0.938,
+    "pcaY": 1.896,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 227,
+    "orbitRadius": 1.771,
+    "orbitalSpeed": 2.535,
+    "luminosity": 0.173,
+    "turbulence": 0.341,
+    "pcaX": -0.873,
+    "pcaY": 1.653,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 228,
+    "orbitRadius": 2.352,
+    "orbitalSpeed": 3.142,
+    "luminosity": -0.059,
+    "turbulence": -0.28,
+    "pcaX": -1.714,
+    "pcaY": 1.699,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 229,
+    "orbitRadius": 2.003,
+    "orbitalSpeed": 2.63,
+    "luminosity": 0.151,
+    "turbulence": 0.447,
+    "pcaX": -1.438,
+    "pcaY": 1.564,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 230,
+    "orbitRadius": 2.39,
+    "orbitalSpeed": 3.09,
+    "luminosity": 0.18,
+    "turbulence": 0.391,
+    "pcaX": -1.502,
+    "pcaY": 1.833,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 231,
+    "orbitRadius": 2.123,
+    "orbitalSpeed": 2.659,
+    "luminosity": -0.476,
+    "turbulence": 0.415,
+    "pcaX": -1.411,
+    "pcaY": 1.072,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 232,
+    "orbitRadius": 2.302,
+    "orbitalSpeed": 2.794,
+    "luminosity": -0.449,
+    "turbulence": -0.699,
+    "pcaX": -1.432,
+    "pcaY": 2.007,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 233,
+    "orbitRadius": 2.096,
+    "orbitalSpeed": 3.054,
+    "luminosity": -0.526,
+    "turbulence": -0.393,
+    "pcaX": -1.34,
+    "pcaY": 1.384,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 234,
+    "orbitRadius": 2.277,
+    "orbitalSpeed": 3.26,
+    "luminosity": -0.638,
+    "turbulence": -0.152,
+    "pcaX": -1.362,
+    "pcaY": 1.705,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 235,
+    "orbitRadius": 2.396,
+    "orbitalSpeed": 3.291,
+    "luminosity": 0.025,
+    "turbulence": -0.53,
+    "pcaX": -2.259,
+    "pcaY": 1.463,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 236,
+    "orbitRadius": 1.868,
+    "orbitalSpeed": 2.852,
+    "luminosity": -0.223,
+    "turbulence": 0.15,
+    "pcaX": -1.259,
+    "pcaY": 0.94,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 237,
+    "orbitRadius": 1.933,
+    "orbitalSpeed": 2.342,
+    "luminosity": -0.042,
+    "turbulence": -0.598,
+    "pcaX": -1.53,
+    "pcaY": 0.807,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 238,
+    "orbitRadius": 2.335,
+    "orbitalSpeed": 3.392,
+    "luminosity": 0.393,
+    "turbulence": -0.174,
+    "pcaX": -2.193,
+    "pcaY": 1.08,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 239,
+    "orbitRadius": 2.015,
+    "orbitalSpeed": 2.992,
+    "luminosity": 0.51,
+    "turbulence": 0.594,
+    "pcaX": -2.175,
+    "pcaY": 0.557,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 240,
+    "orbitRadius": 1.8,
+    "orbitalSpeed": 2.376,
+    "luminosity": -0.063,
+    "turbulence": 0.033,
+    "pcaX": -1.343,
+    "pcaY": 0.783,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 241,
+    "orbitRadius": 2.317,
+    "orbitalSpeed": 3.639,
+    "luminosity": 0.148,
+    "turbulence": 0.093,
+    "pcaX": -2.46,
+    "pcaY": 0.423,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 242,
+    "orbitRadius": 1.819,
+    "orbitalSpeed": 2.424,
+    "luminosity": 0.591,
+    "turbulence": 0.839,
+    "pcaX": -1.604,
+    "pcaY": 0.417,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 243,
+    "orbitRadius": 2.361,
+    "orbitalSpeed": 3.129,
+    "luminosity": 0.731,
+    "turbulence": -0.259,
+    "pcaX": -1.961,
+    "pcaY": 0.357,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 244,
+    "orbitRadius": 2.339,
+    "orbitalSpeed": 2.803,
+    "luminosity": 1.172,
+    "turbulence": 0.239,
+    "pcaX": -2.558,
+    "pcaY": 0.617,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 245,
+    "orbitRadius": 2.421,
+    "orbitalSpeed": 3.231,
+    "luminosity": 1.255,
+    "turbulence": 0.139,
+    "pcaX": -2.748,
+    "pcaY": 0.38,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 246,
+    "orbitRadius": 2.215,
+    "orbitalSpeed": 3.424,
+    "luminosity": 0.395,
+    "turbulence": -0.318,
+    "pcaX": -2.182,
+    "pcaY": 1.074,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 247,
+    "orbitRadius": 2.099,
+    "orbitalSpeed": 2.879,
+    "luminosity": 0.768,
+    "turbulence": 0.145,
+    "pcaX": -1.954,
+    "pcaY": 0.726,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 248,
+    "orbitRadius": 2.312,
+    "orbitalSpeed": 3.075,
+    "luminosity": 0.439,
+    "turbulence": -0.443,
+    "pcaX": -1.824,
+    "pcaY": 0.674,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 249,
+    "orbitRadius": 2.439,
+    "orbitalSpeed": 3.362,
+    "luminosity": 0.212,
+    "turbulence": -0.215,
+    "pcaX": -2.126,
+    "pcaY": 0.873,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 250,
+    "orbitRadius": 2.187,
+    "orbitalSpeed": 3.052,
+    "luminosity": 0.849,
+    "turbulence": 0.545,
+    "pcaX": -2.014,
+    "pcaY": 0.243,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 251,
+    "orbitRadius": 2.037,
+    "orbitalSpeed": 2.896,
+    "luminosity": 0.522,
+    "turbulence": 0.713,
+    "pcaX": -1.953,
+    "pcaY": -0.114,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 252,
+    "orbitRadius": 2.153,
+    "orbitalSpeed": 3.134,
+    "luminosity": 0.531,
+    "turbulence": 0.355,
+    "pcaX": -1.752,
+    "pcaY": 0.477,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 253,
+    "orbitRadius": 2.422,
+    "orbitalSpeed": 3.581,
+    "luminosity": 0.007,
+    "turbulence": 0.523,
+    "pcaX": -2.582,
+    "pcaY": 1.129,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 254,
+    "orbitRadius": 1.795,
+    "orbitalSpeed": 2.645,
+    "luminosity": 0.645,
+    "turbulence": -0.071,
+    "pcaX": -2.155,
+    "pcaY": -0.274,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 255,
+    "orbitRadius": 2.03,
+    "orbitalSpeed": 2.667,
+    "luminosity": 1.6,
+    "turbulence": 0.296,
+    "pcaX": -1.941,
+    "pcaY": -0.351,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 256,
+    "orbitRadius": 1.85,
+    "orbitalSpeed": 2.657,
+    "luminosity": 0.621,
+    "turbulence": 0.034,
+    "pcaX": -2.171,
+    "pcaY": 0.078,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 257,
+    "orbitRadius": 1.787,
+    "orbitalSpeed": 2.642,
+    "luminosity": 1.817,
+    "turbulence": 0.799,
+    "pcaX": -1.86,
+    "pcaY": -0.041,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 258,
+    "orbitRadius": 1.804,
+    "orbitalSpeed": 2.534,
+    "luminosity": 1.429,
+    "turbulence": 0.971,
+    "pcaX": -1.434,
+    "pcaY": 0.036,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 259,
+    "orbitRadius": 2.183,
+    "orbitalSpeed": 2.881,
+    "luminosity": 1.094,
+    "turbulence": 1.022,
+    "pcaX": -2.079,
+    "pcaY": -0.658,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 260,
+    "orbitRadius": 1.9,
+    "orbitalSpeed": 2.965,
+    "luminosity": 1.563,
+    "turbulence": 0.546,
+    "pcaX": -2.037,
+    "pcaY": -0.091,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 261,
+    "orbitRadius": 2.303,
+    "orbitalSpeed": 2.863,
+    "luminosity": 0.86,
+    "turbulence": 0.763,
+    "pcaX": -2.425,
+    "pcaY": -0.383,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 262,
+    "orbitRadius": 2.261,
+    "orbitalSpeed": 2.877,
+    "luminosity": 1.334,
+    "turbulence": 0.319,
+    "pcaX": -2.419,
+    "pcaY": -0.506,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 263,
+    "orbitRadius": 2.303,
+    "orbitalSpeed": 3.005,
+    "luminosity": 1.556,
+    "turbulence": 1.178,
+    "pcaX": -1.955,
+    "pcaY": -0.21,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 264,
+    "orbitRadius": 1.806,
+    "orbitalSpeed": 2.58,
+    "luminosity": 1.382,
+    "turbulence": 0.173,
+    "pcaX": -2.1,
+    "pcaY": 0.061,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 265,
+    "orbitRadius": 2.227,
+    "orbitalSpeed": 2.873,
+    "luminosity": 1.382,
+    "turbulence": 0.415,
+    "pcaX": -2.153,
+    "pcaY": -0.064,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 266,
+    "orbitRadius": 2.128,
+    "orbitalSpeed": 2.73,
+    "luminosity": 1.632,
+    "turbulence": 0.842,
+    "pcaX": -1.848,
+    "pcaY": -1.077,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 267,
+    "orbitRadius": 2.238,
+    "orbitalSpeed": 3.3,
+    "luminosity": 1.63,
+    "turbulence": 0.715,
+    "pcaX": -2.426,
+    "pcaY": -0.372,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 268,
+    "orbitRadius": 2.195,
+    "orbitalSpeed": 3.062,
+    "luminosity": 1.888,
+    "turbulence": 0.608,
+    "pcaX": -1.884,
+    "pcaY": -0.492,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 269,
+    "orbitRadius": 2.222,
+    "orbitalSpeed": 2.877,
+    "luminosity": 1.596,
+    "turbulence": 0.535,
+    "pcaX": -2.376,
+    "pcaY": -0.967,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 270,
+    "orbitRadius": 1.887,
+    "orbitalSpeed": 2.492,
+    "luminosity": 1.368,
+    "turbulence": 1.373,
+    "pcaX": -1.867,
+    "pcaY": -0.911,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 271,
+    "orbitRadius": 2.339,
+    "orbitalSpeed": 3.232,
+    "luminosity": 1.788,
+    "turbulence": 0.889,
+    "pcaX": -2.135,
+    "pcaY": -0.813,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 272,
+    "orbitRadius": 2.299,
+    "orbitalSpeed": 3.311,
+    "luminosity": 1.407,
+    "turbulence": 1.453,
+    "pcaX": -1.914,
+    "pcaY": -0.571,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 273,
+    "orbitRadius": 2.437,
+    "orbitalSpeed": 2.959,
+    "luminosity": 1.381,
+    "turbulence": 1.684,
+    "pcaX": -1.645,
+    "pcaY": -1.725,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 274,
+    "orbitRadius": 1.866,
+    "orbitalSpeed": 2.382,
+    "luminosity": 1.431,
+    "turbulence": 1.285,
+    "pcaX": -1.388,
+    "pcaY": -1.43,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 275,
+    "orbitRadius": 1.8,
+    "orbitalSpeed": 2.311,
+    "luminosity": 1.929,
+    "turbulence": 1.226,
+    "pcaX": -1.463,
+    "pcaY": -1.236,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 276,
+    "orbitRadius": 2.401,
+    "orbitalSpeed": 3.375,
+    "luminosity": 1.54,
+    "turbulence": 1.047,
+    "pcaX": -2.117,
+    "pcaY": -1.12,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 277,
+    "orbitRadius": 1.806,
+    "orbitalSpeed": 2.655,
+    "luminosity": 1.862,
+    "turbulence": 1.194,
+    "pcaX": -1.91,
+    "pcaY": -0.862,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 278,
+    "orbitRadius": 1.96,
+    "orbitalSpeed": 3.078,
+    "luminosity": 1.348,
+    "turbulence": 1.592,
+    "pcaX": -1.732,
+    "pcaY": -1.384,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 279,
+    "orbitRadius": 2.389,
+    "orbitalSpeed": 2.981,
+    "luminosity": 2.009,
+    "turbulence": 1.006,
+    "pcaX": -1.937,
+    "pcaY": -1.524,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 280,
+    "orbitRadius": 2.378,
+    "orbitalSpeed": 3.326,
+    "luminosity": 2.09,
+    "turbulence": 0.535,
+    "pcaX": -2.328,
+    "pcaY": -0.988,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 281,
+    "orbitRadius": 2.417,
+    "orbitalSpeed": 3.027,
+    "luminosity": 2.24,
+    "turbulence": 0.877,
+    "pcaX": -2.011,
+    "pcaY": -1.951,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 282,
+    "orbitRadius": 1.831,
+    "orbitalSpeed": 2.811,
+    "luminosity": 2.179,
+    "turbulence": 0.824,
+    "pcaX": -1.394,
+    "pcaY": -1.426,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 283,
+    "orbitRadius": 2.145,
+    "orbitalSpeed": 2.648,
+    "luminosity": 1.98,
+    "turbulence": 0.8,
+    "pcaX": -1.736,
+    "pcaY": -1.568,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 284,
+    "orbitRadius": 1.819,
+    "orbitalSpeed": 2.481,
+    "luminosity": 1.836,
+    "turbulence": 0.873,
+    "pcaX": -1.184,
+    "pcaY": -1.493,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 285,
+    "orbitRadius": 2.229,
+    "orbitalSpeed": 2.776,
+    "luminosity": 2.047,
+    "turbulence": 1.659,
+    "pcaX": -1.718,
+    "pcaY": -2.038,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 286,
+    "orbitRadius": 2.266,
+    "orbitalSpeed": 3.333,
+    "luminosity": 1.918,
+    "turbulence": 0.787,
+    "pcaX": -1.358,
+    "pcaY": -1.86,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 287,
+    "orbitRadius": 1.967,
+    "orbitalSpeed": 3.08,
+    "luminosity": 1.408,
+    "turbulence": 0.579,
+    "pcaX": -1.49,
+    "pcaY": -1.673,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 288,
+    "orbitRadius": 2.301,
+    "orbitalSpeed": 3.364,
+    "luminosity": 1.78,
+    "turbulence": 1.725,
+    "pcaX": -1.447,
+    "pcaY": -1.836,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 289,
+    "orbitRadius": 2.202,
+    "orbitalSpeed": 2.964,
+    "luminosity": 1.921,
+    "turbulence": 0.675,
+    "pcaX": -1.603,
+    "pcaY": -1.725,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 290,
+    "orbitRadius": 2.001,
+    "orbitalSpeed": 2.805,
+    "luminosity": 1.197,
+    "turbulence": 1.12,
+    "pcaX": -0.99,
+    "pcaY": -2.048,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 291,
+    "orbitRadius": 2.053,
+    "orbitalSpeed": 2.572,
+    "luminosity": 1.219,
+    "turbulence": 1.347,
+    "pcaX": -0.465,
+    "pcaY": -2.221,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 292,
+    "orbitRadius": 1.968,
+    "orbitalSpeed": 2.761,
+    "luminosity": 1.487,
+    "turbulence": 1.758,
+    "pcaX": -0.812,
+    "pcaY": -1.703,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 293,
+    "orbitRadius": 2.263,
+    "orbitalSpeed": 3.121,
+    "luminosity": 1.174,
+    "turbulence": 1.285,
+    "pcaX": -0.604,
+    "pcaY": -2.535,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 294,
+    "orbitRadius": 2.141,
+    "orbitalSpeed": 2.726,
+    "luminosity": 1.627,
+    "turbulence": 1.735,
+    "pcaX": -1.018,
+    "pcaY": -1.361,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 295,
+    "orbitRadius": 2.135,
+    "orbitalSpeed": 2.833,
+    "luminosity": 1.521,
+    "turbulence": 1.002,
+    "pcaX": -0.364,
+    "pcaY": -1.682,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 296,
+    "orbitRadius": 2.357,
+    "orbitalSpeed": 3.077,
+    "luminosity": 1.187,
+    "turbulence": 1.79,
+    "pcaX": -1.519,
+    "pcaY": -1.595,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 297,
+    "orbitRadius": 1.777,
+    "orbitalSpeed": 2.509,
+    "luminosity": 1.643,
+    "turbulence": 0.902,
+    "pcaX": -1.07,
+    "pcaY": -1.61,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 298,
+    "orbitRadius": 2.426,
+    "orbitalSpeed": 3.721,
+    "luminosity": 1.392,
+    "turbulence": 1.18,
+    "pcaX": -1.099,
+    "pcaY": -2.296,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 299,
+    "orbitRadius": 1.926,
+    "orbitalSpeed": 2.347,
+    "luminosity": 1.789,
+    "turbulence": 1.544,
+    "pcaX": -0.426,
+    "pcaY": -1.964,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 300,
+    "orbitRadius": 2.223,
+    "orbitalSpeed": 3.403,
+    "luminosity": 0.975,
+    "turbulence": 0.888,
+    "pcaX": -0.723,
+    "pcaY": -2.047,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 301,
+    "orbitRadius": 2.068,
+    "orbitalSpeed": 2.906,
+    "luminosity": 1.083,
+    "turbulence": 1.387,
+    "pcaX": -0.586,
+    "pcaY": -2.087,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 302,
+    "orbitRadius": 1.963,
+    "orbitalSpeed": 2.537,
+    "luminosity": 0.677,
+    "turbulence": 1.577,
+    "pcaX": -0.508,
+    "pcaY": -1.585,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 303,
+    "orbitRadius": 2.115,
+    "orbitalSpeed": 3.035,
+    "luminosity": 1.206,
+    "turbulence": 0.746,
+    "pcaX": -0.631,
+    "pcaY": -2.2,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 304,
+    "orbitRadius": 2.117,
+    "orbitalSpeed": 3.205,
+    "luminosity": 1.211,
+    "turbulence": 1.139,
+    "pcaX": -0.494,
+    "pcaY": -1.878,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 305,
+    "orbitRadius": 2.173,
+    "orbitalSpeed": 2.613,
+    "luminosity": 0.991,
+    "turbulence": 1.516,
+    "pcaX": -0.824,
+    "pcaY": -2.251,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 306,
+    "orbitRadius": 2.07,
+    "orbitalSpeed": 2.578,
+    "luminosity": 0.864,
+    "turbulence": 1.235,
+    "pcaX": -0.351,
+    "pcaY": -2.459,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 307,
+    "orbitRadius": 2.075,
+    "orbitalSpeed": 2.5,
+    "luminosity": 0.511,
+    "turbulence": 0.942,
+    "pcaX": 0.438,
+    "pcaY": -1.756,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 308,
+    "orbitRadius": 2.394,
+    "orbitalSpeed": 3.543,
+    "luminosity": 1.199,
+    "turbulence": 0.487,
+    "pcaX": 0.114,
+    "pcaY": -2.575,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 309,
+    "orbitRadius": 1.837,
+    "orbitalSpeed": 2.418,
+    "luminosity": 0.473,
+    "turbulence": 1.461,
+    "pcaX": 0.003,
+    "pcaY": -1.768,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 310,
+    "orbitRadius": 2.324,
+    "orbitalSpeed": 3.11,
+    "luminosity": 1.031,
+    "turbulence": 1.117,
+    "pcaX": -0.664,
+    "pcaY": -1.959,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 311,
+    "orbitRadius": 2.315,
+    "orbitalSpeed": 3.22,
+    "luminosity": 0.702,
+    "turbulence": 0.383,
+    "pcaX": 0.32,
+    "pcaY": -2.161,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 312,
+    "orbitRadius": 1.925,
+    "orbitalSpeed": 2.879,
+    "luminosity": 0.811,
+    "turbulence": 0.807,
+    "pcaX": -0.123,
+    "pcaY": -2.155,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 313,
+    "orbitRadius": 2.197,
+    "orbitalSpeed": 3.115,
+    "luminosity": 0.26,
+    "turbulence": 1.414,
+    "pcaX": -0.083,
+    "pcaY": -1.983,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 314,
+    "orbitRadius": 2.204,
+    "orbitalSpeed": 2.82,
+    "luminosity": 0.522,
+    "turbulence": 1.307,
+    "pcaX": 0.508,
+    "pcaY": -2.248,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 315,
+    "orbitRadius": 1.825,
+    "orbitalSpeed": 2.658,
+    "luminosity": 0.289,
+    "turbulence": 0.741,
+    "pcaX": 0.238,
+    "pcaY": -2.146,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 316,
+    "orbitRadius": 1.845,
+    "orbitalSpeed": 2.782,
+    "luminosity": 0.402,
+    "turbulence": 1.099,
+    "pcaX": 0.481,
+    "pcaY": -1.89,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 317,
+    "orbitRadius": 1.849,
+    "orbitalSpeed": 2.836,
+    "luminosity": 0.159,
+    "turbulence": 1.083,
+    "pcaX": 0.433,
+    "pcaY": -1.477,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 318,
+    "orbitRadius": 2.243,
+    "orbitalSpeed": 3.511,
+    "luminosity": 0.372,
+    "turbulence": 0.908,
+    "pcaX": 0.403,
+    "pcaY": -2.1,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 319,
+    "orbitRadius": 2.439,
+    "orbitalSpeed": 2.942,
+    "luminosity": 0.016,
+    "turbulence": 1.531,
+    "pcaX": 0.269,
+    "pcaY": -2.805,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 320,
+    "orbitRadius": 2.245,
+    "orbitalSpeed": 2.748,
+    "luminosity": 0.503,
+    "turbulence": 0.738,
+    "pcaX": -0.123,
+    "pcaY": -2.43,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 321,
+    "orbitRadius": 2.281,
+    "orbitalSpeed": 2.951,
+    "luminosity": 0.087,
+    "turbulence": 1.245,
+    "pcaX": 0.661,
+    "pcaY": -2.358,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 322,
+    "orbitRadius": 1.911,
+    "orbitalSpeed": 2.463,
+    "luminosity": 0.543,
+    "turbulence": 0.256,
+    "pcaX": 0.861,
+    "pcaY": -1.582,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 323,
+    "orbitRadius": 2.218,
+    "orbitalSpeed": 2.772,
+    "luminosity": -0.428,
+    "turbulence": 0.093,
+    "pcaX": 1.099,
+    "pcaY": -2.193,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 324,
+    "orbitRadius": 2.106,
+    "orbitalSpeed": 3.127,
+    "luminosity": 0.057,
+    "turbulence": 0.566,
+    "pcaX": 0.115,
+    "pcaY": -1.784,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 325,
+    "orbitRadius": 1.77,
+    "orbitalSpeed": 2.584,
+    "luminosity": -0.107,
+    "turbulence": 0.904,
+    "pcaX": 0.458,
+    "pcaY": -2.143,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 326,
+    "orbitRadius": 1.924,
+    "orbitalSpeed": 2.506,
+    "luminosity": -0.374,
+    "turbulence": 0.584,
+    "pcaX": 1.318,
+    "pcaY": -1.943,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 327,
+    "orbitRadius": 1.75,
+    "orbitalSpeed": 2.391,
+    "luminosity": 0.084,
+    "turbulence": 0.751,
+    "pcaX": 1.131,
+    "pcaY": -1.713,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 328,
+    "orbitRadius": 2.11,
+    "orbitalSpeed": 3.286,
+    "luminosity": -0.513,
+    "turbulence": 1.109,
+    "pcaX": 0.877,
+    "pcaY": -1.984,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 329,
+    "orbitRadius": 2.08,
+    "orbitalSpeed": 2.669,
+    "luminosity": -0.394,
+    "turbulence": 0.014,
+    "pcaX": 1.41,
+    "pcaY": -1.339,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 330,
+    "orbitRadius": 2.44,
+    "orbitalSpeed": 3.22,
+    "luminosity": -0.485,
+    "turbulence": 1.047,
+    "pcaX": 1.068,
+    "pcaY": -2.4,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 331,
+    "orbitRadius": 2.229,
+    "orbitalSpeed": 3.031,
+    "luminosity": -0.331,
+    "turbulence": 0.014,
+    "pcaX": 0.887,
+    "pcaY": -1.824,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 332,
+    "orbitRadius": 2.422,
+    "orbitalSpeed": 2.939,
+    "luminosity": -0.566,
+    "turbulence": 1.036,
+    "pcaX": 0.68,
+    "pcaY": -1.913,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 333,
+    "orbitRadius": 2.324,
+    "orbitalSpeed": 2.9,
+    "luminosity": -0.207,
+    "turbulence": 0.299,
+    "pcaX": 1.036,
+    "pcaY": -1.715,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 334,
+    "orbitRadius": 2.439,
+    "orbitalSpeed": 3.287,
+    "luminosity": 0.056,
+    "turbulence": 0.716,
+    "pcaX": 1.579,
+    "pcaY": -2.126,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 335,
+    "orbitRadius": 1.849,
+    "orbitalSpeed": 2.385,
+    "luminosity": 0.143,
+    "turbulence": 0.759,
+    "pcaX": 1.546,
+    "pcaY": -1.207,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 336,
+    "orbitRadius": 1.853,
+    "orbitalSpeed": 2.577,
+    "luminosity": -0.161,
+    "turbulence": 0.742,
+    "pcaX": 1.093,
+    "pcaY": -1.979,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 337,
+    "orbitRadius": 1.872,
+    "orbitalSpeed": 2.296,
+    "luminosity": -0.217,
+    "turbulence": 0.281,
+    "pcaX": 1.159,
+    "pcaY": -1.055,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 338,
+    "orbitRadius": 2.23,
+    "orbitalSpeed": 3.312,
+    "luminosity": -0.554,
+    "turbulence": 0.355,
+    "pcaX": 1.772,
+    "pcaY": -1.366,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 339,
+    "orbitRadius": 2.228,
+    "orbitalSpeed": 3.322,
+    "luminosity": 0.397,
+    "turbulence": 0.647,
+    "pcaX": 2.098,
+    "pcaY": -1.491,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 340,
+    "orbitRadius": 2.097,
+    "orbitalSpeed": 2.558,
+    "luminosity": 0.269,
+    "turbulence": -0.127,
+    "pcaX": 1.57,
+    "pcaY": -1.542,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 341,
+    "orbitRadius": 2.062,
+    "orbitalSpeed": 2.493,
+    "luminosity": 0.012,
+    "turbulence": 0.394,
+    "pcaX": 1.064,
+    "pcaY": -1.34,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 342,
+    "orbitRadius": 2.1,
+    "orbitalSpeed": 2.843,
+    "luminosity": 0.032,
+    "turbulence": -0.269,
+    "pcaX": 1.65,
+    "pcaY": -1.043,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 343,
+    "orbitRadius": 1.761,
+    "orbitalSpeed": 2.385,
+    "luminosity": 0.196,
+    "turbulence": 0.176,
+    "pcaX": 0.991,
+    "pcaY": -1.725,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 344,
+    "orbitRadius": 2.351,
+    "orbitalSpeed": 3.106,
+    "luminosity": -0.238,
+    "turbulence": 0.252,
+    "pcaX": 1.996,
+    "pcaY": -1.402,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 345,
+    "orbitRadius": 1.878,
+    "orbitalSpeed": 2.943,
+    "luminosity": -0.302,
+    "turbulence": 0.062,
+    "pcaX": 1.811,
+    "pcaY": -0.628,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 346,
+    "orbitRadius": 1.884,
+    "orbitalSpeed": 2.348,
+    "luminosity": -0.227,
+    "turbulence": 0.693,
+    "pcaX": 1.678,
+    "pcaY": -0.815,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 347,
+    "orbitRadius": 1.994,
+    "orbitalSpeed": 2.459,
+    "luminosity": -0.256,
+    "turbulence": 0.714,
+    "pcaX": 1.593,
+    "pcaY": -1.019,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 348,
+    "orbitRadius": 1.866,
+    "orbitalSpeed": 2.327,
+    "luminosity": 0.026,
+    "turbulence": -0.653,
+    "pcaX": 1.907,
+    "pcaY": -0.603,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 349,
+    "orbitRadius": 2.312,
+    "orbitalSpeed": 3.418,
+    "luminosity": -0.449,
+    "turbulence": -0.42,
+    "pcaX": 2.188,
+    "pcaY": -1.086,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 350,
+    "orbitRadius": 2.128,
+    "orbitalSpeed": 2.693,
+    "luminosity": -0.058,
+    "turbulence": -0.631,
+    "pcaX": 2.316,
+    "pcaY": -1.199,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 351,
+    "orbitRadius": 1.867,
+    "orbitalSpeed": 2.807,
+    "luminosity": -0.105,
+    "turbulence": 0.517,
+    "pcaX": 1.573,
+    "pcaY": -1.345,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 352,
+    "orbitRadius": 1.983,
+    "orbitalSpeed": 2.642,
+    "luminosity": 0.615,
+    "turbulence": -0.605,
+    "pcaX": 1.833,
+    "pcaY": -0.547,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 353,
+    "orbitRadius": 2.156,
+    "orbitalSpeed": 3.137,
+    "luminosity": 0.226,
+    "turbulence": 0.345,
+    "pcaX": 2.39,
+    "pcaY": -0.318,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 354,
+    "orbitRadius": 2.212,
+    "orbitalSpeed": 2.672,
+    "luminosity": 0.956,
+    "turbulence": -0.48,
+    "pcaX": 2.447,
+    "pcaY": -0.797,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 355,
+    "orbitRadius": 2.332,
+    "orbitalSpeed": 3.008,
+    "luminosity": 0.51,
+    "turbulence": -0.109,
+    "pcaX": 2.614,
+    "pcaY": -0.966,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 356,
+    "orbitRadius": 1.955,
+    "orbitalSpeed": 2.631,
+    "luminosity": 0.478,
+    "turbulence": 0.111,
+    "pcaX": 2.021,
+    "pcaY": -0.824,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 357,
+    "orbitRadius": 2.323,
+    "orbitalSpeed": 2.734,
+    "luminosity": 0.773,
+    "turbulence": 0.392,
+    "pcaX": 1.869,
+    "pcaY": -0.142,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 358,
+    "orbitRadius": 2.146,
+    "orbitalSpeed": 3.239,
+    "luminosity": 0.061,
+    "turbulence": 0.023,
+    "pcaX": 2.323,
+    "pcaY": -0.644,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 359,
+    "orbitRadius": 1.958,
+    "orbitalSpeed": 2.429,
+    "luminosity": 0.722,
+    "turbulence": -0.151,
+    "pcaX": 2.217,
+    "pcaY": -0.32,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 360,
+    "orbitRadius": 2.437,
+    "orbitalSpeed": 3.62,
+    "luminosity": 0.964,
+    "turbulence": -0.119,
+    "pcaX": 2.461,
+    "pcaY": -0.518,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 361,
+    "orbitRadius": 1.942,
+    "orbitalSpeed": 2.368,
+    "luminosity": 1.261,
+    "turbulence": 0.255,
+    "pcaX": 1.623,
+    "pcaY": -0.451,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 362,
+    "orbitRadius": 1.931,
+    "orbitalSpeed": 3.023,
+    "luminosity": 1.22,
+    "turbulence": 0.082,
+    "pcaX": 1.751,
+    "pcaY": -0.674,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 363,
+    "orbitRadius": 2.124,
+    "orbitalSpeed": 3.056,
+    "luminosity": 1.158,
+    "turbulence": 0.118,
+    "pcaX": 1.768,
+    "pcaY": -0.379,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 364,
+    "orbitRadius": 1.757,
+    "orbitalSpeed": 2.658,
+    "luminosity": 1.032,
+    "turbulence": -0.322,
+    "pcaX": 1.853,
+    "pcaY": 0.281,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 365,
+    "orbitRadius": 2.172,
+    "orbitalSpeed": 3.172,
+    "luminosity": 0.73,
+    "turbulence": -0.652,
+    "pcaX": 1.874,
+    "pcaY": -0.67,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 366,
+    "orbitRadius": 2.011,
+    "orbitalSpeed": 2.572,
+    "luminosity": 1.313,
+    "turbulence": 0.312,
+    "pcaX": 2.03,
+    "pcaY": -0.432,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 367,
+    "orbitRadius": 2.163,
+    "orbitalSpeed": 2.775,
+    "luminosity": 1.571,
+    "turbulence": -0.143,
+    "pcaX": 2.195,
+    "pcaY": 0.087,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 368,
+    "orbitRadius": 1.928,
+    "orbitalSpeed": 2.774,
+    "luminosity": 1.588,
+    "turbulence": 0.149,
+    "pcaX": 2.099,
+    "pcaY": 0.54,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 369,
+    "orbitRadius": 1.976,
+    "orbitalSpeed": 3.078,
+    "luminosity": 0.816,
+    "turbulence": 0.008,
+    "pcaX": 2.238,
+    "pcaY": 0.291,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 370,
+    "orbitRadius": 2.123,
+    "orbitalSpeed": 3.061,
+    "luminosity": 1.416,
+    "turbulence": 0.341,
+    "pcaX": 2.313,
+    "pcaY": 0.234,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 371,
+    "orbitRadius": 2.1,
+    "orbitalSpeed": 2.724,
+    "luminosity": 1.449,
+    "turbulence": -0.068,
+    "pcaX": 1.663,
+    "pcaY": 0.165,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 372,
+    "orbitRadius": 1.751,
+    "orbitalSpeed": 2.155,
+    "luminosity": 1.722,
+    "turbulence": -0.688,
+    "pcaX": 1.767,
+    "pcaY": 0.386,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 373,
+    "orbitRadius": 1.762,
+    "orbitalSpeed": 2.558,
+    "luminosity": 1.809,
+    "turbulence": -0.525,
+    "pcaX": 1.419,
+    "pcaY": -0.052,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 374,
+    "orbitRadius": 1.969,
+    "orbitalSpeed": 2.733,
+    "luminosity": 1.907,
+    "turbulence": 0.329,
+    "pcaX": 2.174,
+    "pcaY": 0.581,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 375,
+    "orbitRadius": 1.752,
+    "orbitalSpeed": 2.236,
+    "luminosity": 1.119,
+    "turbulence": -0.503,
+    "pcaX": 1.923,
+    "pcaY": 0.206,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 376,
+    "orbitRadius": 2.142,
+    "orbitalSpeed": 2.868,
+    "luminosity": 0.906,
+    "turbulence": -0.642,
+    "pcaX": 2.151,
+    "pcaY": 0.446,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 377,
+    "orbitRadius": 1.844,
+    "orbitalSpeed": 2.604,
+    "luminosity": 1.724,
+    "turbulence": -0.556,
+    "pcaX": 1.453,
+    "pcaY": 0.885,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 378,
+    "orbitRadius": 2.364,
+    "orbitalSpeed": 3.46,
+    "luminosity": 1.483,
+    "turbulence": 0.135,
+    "pcaX": 2.329,
+    "pcaY": 0.799,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 379,
+    "orbitRadius": 1.835,
+    "orbitalSpeed": 2.291,
+    "luminosity": 1.101,
+    "turbulence": -0.185,
+    "pcaX": 2.128,
+    "pcaY": 0.636,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 380,
+    "orbitRadius": 2.133,
+    "orbitalSpeed": 3.354,
+    "luminosity": 1.043,
+    "turbulence": 0.261,
+    "pcaX": 2.379,
+    "pcaY": 0.233,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 381,
+    "orbitRadius": 1.972,
+    "orbitalSpeed": 3.093,
+    "luminosity": 1.923,
+    "turbulence": -0.57,
+    "pcaX": 1.565,
+    "pcaY": 0.334,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 382,
+    "orbitRadius": 1.86,
+    "orbitalSpeed": 2.47,
+    "luminosity": 1.664,
+    "turbulence": -0.115,
+    "pcaX": 1.607,
+    "pcaY": 0.935,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 383,
+    "orbitRadius": 1.988,
+    "orbitalSpeed": 2.876,
+    "luminosity": 2.086,
+    "turbulence": -0.61,
+    "pcaX": 1.901,
+    "pcaY": 0.719,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 384,
+    "orbitRadius": 1.793,
+    "orbitalSpeed": 2.509,
+    "luminosity": 1.427,
+    "turbulence": 0.366,
+    "pcaX": 1.844,
+    "pcaY": 0.449,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 385,
+    "orbitRadius": 2.137,
+    "orbitalSpeed": 2.892,
+    "luminosity": 1.425,
+    "turbulence": -0.185,
+    "pcaX": 2.11,
+    "pcaY": 0.768,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 386,
+    "orbitRadius": 2.035,
+    "orbitalSpeed": 2.51,
+    "luminosity": 1.943,
+    "turbulence": 0.137,
+    "pcaX": 1.584,
+    "pcaY": 0.849,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 387,
+    "orbitRadius": 2.436,
+    "orbitalSpeed": 3.067,
+    "luminosity": 1.87,
+    "turbulence": -0.51,
+    "pcaX": 1.929,
+    "pcaY": 0.735,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 388,
+    "orbitRadius": 1.997,
+    "orbitalSpeed": 3.184,
+    "luminosity": 1.863,
+    "turbulence": -0.269,
+    "pcaX": 1.692,
+    "pcaY": 1.346,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 389,
+    "orbitRadius": 1.985,
+    "orbitalSpeed": 2.514,
+    "luminosity": 2.264,
+    "turbulence": 0.263,
+    "pcaX": 1.852,
+    "pcaY": 1.464,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 390,
+    "orbitRadius": 1.989,
+    "orbitalSpeed": 2.54,
+    "luminosity": 2.171,
+    "turbulence": -0.191,
+    "pcaX": 1.433,
+    "pcaY": 1.274,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 391,
+    "orbitRadius": 2.389,
+    "orbitalSpeed": 2.825,
+    "luminosity": 1.891,
+    "turbulence": 0.127,
+    "pcaX": 1.537,
+    "pcaY": 1.707,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 392,
+    "orbitRadius": 2.017,
+    "orbitalSpeed": 3.007,
+    "luminosity": 1.751,
+    "turbulence": 0.638,
+    "pcaX": 1.355,
+    "pcaY": 1.487,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 393,
+    "orbitRadius": 2.44,
+    "orbitalSpeed": 2.867,
+    "luminosity": 1.352,
+    "turbulence": 0.095,
+    "pcaX": 2,
+    "pcaY": 1.312,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 394,
+    "orbitRadius": 2.014,
+    "orbitalSpeed": 2.568,
+    "luminosity": 1.942,
+    "turbulence": 0.118,
+    "pcaX": 1.803,
+    "pcaY": 1.24,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 395,
+    "orbitRadius": 2.387,
+    "orbitalSpeed": 2.799,
+    "luminosity": 1.306,
+    "turbulence": 0.897,
+    "pcaX": 1.658,
+    "pcaY": 2.325,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 396,
+    "orbitRadius": 2.043,
+    "orbitalSpeed": 3.017,
+    "luminosity": 0.938,
+    "turbulence": 0.48,
+    "pcaX": 1.261,
+    "pcaY": 2.115,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 397,
+    "orbitRadius": 2.191,
+    "orbitalSpeed": 2.959,
+    "luminosity": 1.349,
+    "turbulence": 0.984,
+    "pcaX": 1.292,
+    "pcaY": 1.62,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 398,
+    "orbitRadius": 2.127,
+    "orbitalSpeed": 2.97,
+    "luminosity": 1.874,
+    "turbulence": -0.266,
+    "pcaX": 1.58,
+    "pcaY": 1.315,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 399,
+    "orbitRadius": 2.39,
+    "orbitalSpeed": 3.502,
+    "luminosity": 1.619,
+    "turbulence": 0.154,
+    "pcaX": 1.766,
+    "pcaY": 1.785,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 400,
+    "orbitRadius": 2.182,
+    "orbitalSpeed": 3.441,
+    "luminosity": 1.571,
+    "turbulence": 0.789,
+    "pcaX": 0.899,
+    "pcaY": 1.917,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 401,
+    "orbitRadius": 1.924,
+    "orbitalSpeed": 3.065,
+    "luminosity": 1.618,
+    "turbulence": 0.259,
+    "pcaX": 0.851,
+    "pcaY": 1.847,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 402,
+    "orbitRadius": 1.908,
+    "orbitalSpeed": 2.616,
+    "luminosity": 1.75,
+    "turbulence": 0.164,
+    "pcaX": 0.994,
+    "pcaY": 1.724,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 403,
+    "orbitRadius": 2.429,
+    "orbitalSpeed": 3.045,
+    "luminosity": 0.946,
+    "turbulence": 0.072,
+    "pcaX": 0.537,
+    "pcaY": 2.351,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 404,
+    "orbitRadius": 2.085,
+    "orbitalSpeed": 2.875,
+    "luminosity": 1.32,
+    "turbulence": 0.755,
+    "pcaX": 0.863,
+    "pcaY": 1.785,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 405,
+    "orbitRadius": 2.009,
+    "orbitalSpeed": 2.533,
+    "luminosity": 0.993,
+    "turbulence": 1.264,
+    "pcaX": 0.966,
+    "pcaY": 1.884,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 406,
+    "orbitRadius": 1.778,
+    "orbitalSpeed": 2.879,
+    "luminosity": 1.709,
+    "turbulence": 0.962,
+    "pcaX": 0.615,
+    "pcaY": 1.944,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 407,
+    "orbitRadius": 2.205,
+    "orbitalSpeed": 3.182,
+    "luminosity": 0.557,
+    "turbulence": 0.742,
+    "pcaX": 0.637,
+    "pcaY": 2.251,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 408,
+    "orbitRadius": 1.902,
+    "orbitalSpeed": 2.693,
+    "luminosity": 0.65,
+    "turbulence": 0.712,
+    "pcaX": 0.436,
+    "pcaY": 1.52,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 409,
+    "orbitRadius": 1.849,
+    "orbitalSpeed": 2.476,
+    "luminosity": 0.904,
+    "turbulence": 0.721,
+    "pcaX": 0.366,
+    "pcaY": 1.628,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 410,
+    "orbitRadius": 1.783,
+    "orbitalSpeed": 2.701,
+    "luminosity": 1.474,
+    "turbulence": 0.962,
+    "pcaX": 0.932,
+    "pcaY": 1.395,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 411,
+    "orbitRadius": 1.98,
+    "orbitalSpeed": 2.849,
+    "luminosity": 1.718,
+    "turbulence": 0.153,
+    "pcaX": 0.511,
+    "pcaY": 1.689,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 412,
+    "orbitRadius": 1.8,
+    "orbitalSpeed": 2.907,
+    "luminosity": 0.304,
+    "turbulence": 0.429,
+    "pcaX": -0.189,
+    "pcaY": 2.124,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 413,
+    "orbitRadius": 2.425,
+    "orbitalSpeed": 3.559,
+    "luminosity": 0.541,
+    "turbulence": 1.404,
+    "pcaX": -0.057,
+    "pcaY": 2.188,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 414,
+    "orbitRadius": 2.099,
+    "orbitalSpeed": 2.51,
+    "luminosity": 0.885,
+    "turbulence": 0.778,
+    "pcaX": -0.085,
+    "pcaY": 2.427,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 415,
+    "orbitRadius": 2.094,
+    "orbitalSpeed": 3.003,
+    "luminosity": 1.433,
+    "turbulence": 0.816,
+    "pcaX": 0.567,
+    "pcaY": 2.275,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 416,
+    "orbitRadius": 2.342,
+    "orbitalSpeed": 3.211,
+    "luminosity": 0.43,
+    "turbulence": 1.3,
+    "pcaX": -0.418,
+    "pcaY": 2.388,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 417,
+    "orbitRadius": 1.94,
+    "orbitalSpeed": 2.448,
+    "luminosity": 1.155,
+    "turbulence": 0.774,
+    "pcaX": 0.038,
+    "pcaY": 1.714,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 418,
+    "orbitRadius": 2.347,
+    "orbitalSpeed": 3.119,
+    "luminosity": 0.54,
+    "turbulence": 0.553,
+    "pcaX": 0.771,
+    "pcaY": 2.095,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 419,
+    "orbitRadius": 2.24,
+    "orbitalSpeed": 3.023,
+    "luminosity": 0.936,
+    "turbulence": 1.018,
+    "pcaX": 0.046,
+    "pcaY": 2.181,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 420,
+    "orbitRadius": 2.382,
+    "orbitalSpeed": 3.49,
+    "luminosity": 0.783,
+    "turbulence": 1.03,
+    "pcaX": -0.081,
+    "pcaY": 2.357,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 421,
+    "orbitRadius": 2.294,
+    "orbitalSpeed": 3.03,
+    "luminosity": 0.506,
+    "turbulence": 1.275,
+    "pcaX": -0.126,
+    "pcaY": 2.59,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 422,
+    "orbitRadius": 2.43,
+    "orbitalSpeed": 3.368,
+    "luminosity": 0.792,
+    "turbulence": 1.339,
+    "pcaX": 0.272,
+    "pcaY": 2.168,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 423,
+    "orbitRadius": 1.989,
+    "orbitalSpeed": 2.964,
+    "luminosity": 1.308,
+    "turbulence": 1.262,
+    "pcaX": 0.647,
+    "pcaY": 1.769,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 424,
+    "orbitRadius": 1.922,
+    "orbitalSpeed": 2.634,
+    "luminosity": -0.211,
+    "turbulence": 0.622,
+    "pcaX": -0.658,
+    "pcaY": 1.951,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 425,
+    "orbitRadius": 1.916,
+    "orbitalSpeed": 2.335,
+    "luminosity": 0.489,
+    "turbulence": 1.378,
+    "pcaX": 0.207,
+    "pcaY": 1.539,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 426,
+    "orbitRadius": 2.281,
+    "orbitalSpeed": 2.73,
+    "luminosity": 0.323,
+    "turbulence": 0.705,
+    "pcaX": 0.353,
+    "pcaY": 1.975,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 427,
+    "orbitRadius": 2.244,
+    "orbitalSpeed": 3.453,
+    "luminosity": 0.093,
+    "turbulence": 0.714,
+    "pcaX": -0.543,
+    "pcaY": 2.598,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 428,
+    "orbitRadius": 2.087,
+    "orbitalSpeed": 2.8,
+    "luminosity": 0.583,
+    "turbulence": 0.877,
+    "pcaX": -0.359,
+    "pcaY": 2.204,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 429,
+    "orbitRadius": 1.763,
+    "orbitalSpeed": 2.677,
+    "luminosity": 0.279,
+    "turbulence": 1.497,
+    "pcaX": -0.447,
+    "pcaY": 1.752,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 430,
+    "orbitRadius": 1.962,
+    "orbitalSpeed": 2.465,
+    "luminosity": -0.253,
+    "turbulence": 1.459,
+    "pcaX": -0.9,
+    "pcaY": 2.047,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 431,
+    "orbitRadius": 2.179,
+    "orbitalSpeed": 2.929,
+    "luminosity": 0.439,
+    "turbulence": 0.756,
+    "pcaX": -0.516,
+    "pcaY": 2.1,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 432,
+    "orbitRadius": 2.29,
+    "orbitalSpeed": 3.409,
+    "luminosity": 0.709,
+    "turbulence": 0.971,
+    "pcaX": -0.177,
+    "pcaY": 2.329,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 433,
+    "orbitRadius": 1.906,
+    "orbitalSpeed": 2.473,
+    "luminosity": 0.487,
+    "turbulence": 0.845,
+    "pcaX": -0.029,
+    "pcaY": 1.647,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 434,
+    "orbitRadius": 1.789,
+    "orbitalSpeed": 2.807,
+    "luminosity": -0.093,
+    "turbulence": 1.657,
+    "pcaX": -0.236,
+    "pcaY": 1.971,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 435,
+    "orbitRadius": 2.057,
+    "orbitalSpeed": 2.538,
+    "luminosity": -0.138,
+    "turbulence": 1.039,
+    "pcaX": -0.404,
+    "pcaY": 1.815,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 436,
+    "orbitRadius": 1.891,
+    "orbitalSpeed": 2.632,
+    "luminosity": 0.407,
+    "turbulence": 0.852,
+    "pcaX": -0.951,
+    "pcaY": 2.019,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 437,
+    "orbitRadius": 2.299,
+    "orbitalSpeed": 2.895,
+    "luminosity": 0.011,
+    "turbulence": 1.274,
+    "pcaX": -0.415,
+    "pcaY": 2.364,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 438,
+    "orbitRadius": 1.967,
+    "orbitalSpeed": 2.962,
+    "luminosity": 0.479,
+    "turbulence": 0.848,
+    "pcaX": -0.507,
+    "pcaY": 1.879,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 439,
+    "orbitRadius": 1.835,
+    "orbitalSpeed": 2.861,
+    "luminosity": -0.17,
+    "turbulence": 1.345,
+    "pcaX": -0.769,
+    "pcaY": 2.138,
+    "pattern": "Andromeda"
+  },
+  {
+    "id": 440,
+    "orbitRadius": 2.791,
+    "orbitalSpeed": 3.655,
+    "luminosity": 2.121,
+    "turbulence": 1.662,
+    "pcaX": -0.576,
+    "pcaY": -2.612,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 441,
+    "orbitRadius": 2.974,
+    "orbitalSpeed": 4.035,
+    "luminosity": 2.587,
+    "turbulence": 1.539,
+    "pcaX": -1.64,
+    "pcaY": -2.256,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 442,
+    "orbitRadius": 3.211,
+    "orbitalSpeed": 5.204,
+    "luminosity": 1.727,
+    "turbulence": 2.116,
+    "pcaX": -1.925,
+    "pcaY": -2.674,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 443,
+    "orbitRadius": 2.79,
+    "orbitalSpeed": 4.044,
+    "luminosity": 2.192,
+    "turbulence": 1.623,
+    "pcaX": -1.787,
+    "pcaY": -2.214,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 444,
+    "orbitRadius": 2.833,
+    "orbitalSpeed": 4.292,
+    "luminosity": 1.734,
+    "turbulence": 1.347,
+    "pcaX": -0.133,
+    "pcaY": -3.084,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 445,
+    "orbitRadius": 3.059,
+    "orbitalSpeed": 3.888,
+    "luminosity": 2.178,
+    "turbulence": 2.026,
+    "pcaX": -1.122,
+    "pcaY": -2.678,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 446,
+    "orbitRadius": 3.013,
+    "orbitalSpeed": 4.072,
+    "luminosity": 0.799,
+    "turbulence": 1.012,
+    "pcaX": -0.72,
+    "pcaY": -2.642,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 447,
+    "orbitRadius": 3.112,
+    "orbitalSpeed": 5.098,
+    "luminosity": 1.088,
+    "turbulence": 1.762,
+    "pcaX": -0.191,
+    "pcaY": -2.775,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 448,
+    "orbitRadius": 3.046,
+    "orbitalSpeed": 4.683,
+    "luminosity": 1.774,
+    "turbulence": 1.405,
+    "pcaX": -0.821,
+    "pcaY": -2.898,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 449,
+    "orbitRadius": 2.642,
+    "orbitalSpeed": 4.004,
+    "luminosity": 1.244,
+    "turbulence": 1.409,
+    "pcaX": 0.043,
+    "pcaY": -2.423,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 450,
+    "orbitRadius": 3.102,
+    "orbitalSpeed": 4.559,
+    "luminosity": 1.123,
+    "turbulence": 1.69,
+    "pcaX": -0.205,
+    "pcaY": -2.811,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 451,
+    "orbitRadius": 2.701,
+    "orbitalSpeed": 3.905,
+    "luminosity": 1.696,
+    "turbulence": 1.256,
+    "pcaX": -0.473,
+    "pcaY": -2.619,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 452,
+    "orbitRadius": 3.062,
+    "orbitalSpeed": 5.052,
+    "luminosity": 1.783,
+    "turbulence": 2.09,
+    "pcaX": -1.009,
+    "pcaY": -3.127,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 453,
+    "orbitRadius": 2.806,
+    "orbitalSpeed": 4.26,
+    "luminosity": 1.865,
+    "turbulence": 1.193,
+    "pcaX": -0.919,
+    "pcaY": -2.698,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 454,
+    "orbitRadius": 2.797,
+    "orbitalSpeed": 4.491,
+    "luminosity": 1.041,
+    "turbulence": 1.151,
+    "pcaX": 0.493,
+    "pcaY": -3.027,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 455,
+    "orbitRadius": 2.797,
+    "orbitalSpeed": 4.438,
+    "luminosity": 1.969,
+    "turbulence": 1.253,
+    "pcaX": -0.979,
+    "pcaY": -2.533,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 456,
+    "orbitRadius": 2.825,
+    "orbitalSpeed": 3.633,
+    "luminosity": 1.214,
+    "turbulence": 1.738,
+    "pcaX": -0.23,
+    "pcaY": -2.635,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 457,
+    "orbitRadius": 2.604,
+    "orbitalSpeed": 4.074,
+    "luminosity": 0.665,
+    "turbulence": 1.484,
+    "pcaX": 0.189,
+    "pcaY": -2.887,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 458,
+    "orbitRadius": 2.766,
+    "orbitalSpeed": 4.287,
+    "luminosity": 1.32,
+    "turbulence": 1.764,
+    "pcaX": -0.227,
+    "pcaY": -2.627,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 459,
+    "orbitRadius": 3.132,
+    "orbitalSpeed": 4.23,
+    "luminosity": 1.269,
+    "turbulence": 1.265,
+    "pcaX": 0.06,
+    "pcaY": -2.933,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 460,
+    "orbitRadius": 2.994,
+    "orbitalSpeed": 4.442,
+    "luminosity": 1.676,
+    "turbulence": 1.776,
+    "pcaX": -0.732,
+    "pcaY": -3.269,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 461,
+    "orbitRadius": 3.204,
+    "orbitalSpeed": 4.247,
+    "luminosity": 1.334,
+    "turbulence": 1.805,
+    "pcaX": -0.19,
+    "pcaY": -3.433,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 462,
+    "orbitRadius": 2.624,
+    "orbitalSpeed": 4.471,
+    "luminosity": 0.917,
+    "turbulence": 1.818,
+    "pcaX": 0.071,
+    "pcaY": -2.601,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 463,
+    "orbitRadius": 3.067,
+    "orbitalSpeed": 4.737,
+    "luminosity": 0.682,
+    "turbulence": 1.472,
+    "pcaX": 0.911,
+    "pcaY": -3.359,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 464,
+    "orbitRadius": 3.095,
+    "orbitalSpeed": 4.62,
+    "luminosity": 0.706,
+    "turbulence": 0.995,
+    "pcaX": -0.072,
+    "pcaY": -2.886,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 465,
+    "orbitRadius": 3.135,
+    "orbitalSpeed": 4.508,
+    "luminosity": 0.672,
+    "turbulence": 0.774,
+    "pcaX": 0.681,
+    "pcaY": -3.476,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 466,
+    "orbitRadius": 2.609,
+    "orbitalSpeed": 3.991,
+    "luminosity": 0.625,
+    "turbulence": 1.55,
+    "pcaX": 0.75,
+    "pcaY": -2.942,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 467,
+    "orbitRadius": 2.655,
+    "orbitalSpeed": 3.72,
+    "luminosity": 0.908,
+    "turbulence": 0.939,
+    "pcaX": 0.518,
+    "pcaY": -2.338,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 468,
+    "orbitRadius": 3.095,
+    "orbitalSpeed": 4.223,
+    "luminosity": 1.07,
+    "turbulence": 1.153,
+    "pcaX": 1.257,
+    "pcaY": -2.599,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 469,
+    "orbitRadius": 3.084,
+    "orbitalSpeed": 4.247,
+    "luminosity": 0.647,
+    "turbulence": 1.809,
+    "pcaX": 0.956,
+    "pcaY": -2.846,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 470,
+    "orbitRadius": 2.674,
+    "orbitalSpeed": 4.158,
+    "luminosity": 0.493,
+    "turbulence": 1.357,
+    "pcaX": 1.218,
+    "pcaY": -2.017,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 471,
+    "orbitRadius": 2.924,
+    "orbitalSpeed": 3.73,
+    "luminosity": 0.823,
+    "turbulence": 1.435,
+    "pcaX": 0.609,
+    "pcaY": -2.541,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 472,
+    "orbitRadius": 2.952,
+    "orbitalSpeed": 3.896,
+    "luminosity": 0.808,
+    "turbulence": 0.684,
+    "pcaX": 1.773,
+    "pcaY": -2.635,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 473,
+    "orbitRadius": 2.792,
+    "orbitalSpeed": 3.615,
+    "luminosity": 0.457,
+    "turbulence": 1.484,
+    "pcaX": 1.629,
+    "pcaY": -2.264,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 474,
+    "orbitRadius": 2.562,
+    "orbitalSpeed": 3.81,
+    "luminosity": 0.942,
+    "turbulence": 1.075,
+    "pcaX": 1.129,
+    "pcaY": -1.944,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 475,
+    "orbitRadius": 2.925,
+    "orbitalSpeed": 3.85,
+    "luminosity": 0.725,
+    "turbulence": 1.277,
+    "pcaX": 1.694,
+    "pcaY": -2.296,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 476,
+    "orbitRadius": 2.771,
+    "orbitalSpeed": 4.01,
+    "luminosity": 0.855,
+    "turbulence": 0.905,
+    "pcaX": 1.49,
+    "pcaY": -2.259,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 477,
+    "orbitRadius": 2.719,
+    "orbitalSpeed": 4.21,
+    "luminosity": 0.94,
+    "turbulence": 1.235,
+    "pcaX": 2.141,
+    "pcaY": -2.212,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 478,
+    "orbitRadius": 2.552,
+    "orbitalSpeed": 3.519,
+    "luminosity": 0.369,
+    "turbulence": 0.79,
+    "pcaX": 1.422,
+    "pcaY": -1.823,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 479,
+    "orbitRadius": 2.903,
+    "orbitalSpeed": 4.439,
+    "luminosity": 0.547,
+    "turbulence": 1.573,
+    "pcaX": 0.99,
+    "pcaY": -2.279,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 480,
+    "orbitRadius": 3.193,
+    "orbitalSpeed": 4.338,
+    "luminosity": 1.025,
+    "turbulence": 0.903,
+    "pcaX": 1.752,
+    "pcaY": -3.118,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 481,
+    "orbitRadius": 3.012,
+    "orbitalSpeed": 4.954,
+    "luminosity": 0.424,
+    "turbulence": 0.839,
+    "pcaX": 2.026,
+    "pcaY": -2.33,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 482,
+    "orbitRadius": 2.893,
+    "orbitalSpeed": 4.819,
+    "luminosity": 0.86,
+    "turbulence": 0.666,
+    "pcaX": 2.345,
+    "pcaY": -1.725,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 483,
+    "orbitRadius": 2.846,
+    "orbitalSpeed": 4.447,
+    "luminosity": 0.656,
+    "turbulence": 0.78,
+    "pcaX": 1.679,
+    "pcaY": -2.564,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 484,
+    "orbitRadius": 3.134,
+    "orbitalSpeed": 3.945,
+    "luminosity": 0.319,
+    "turbulence": 1.227,
+    "pcaX": 2.201,
+    "pcaY": -2.212,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 485,
+    "orbitRadius": 2.727,
+    "orbitalSpeed": 4.396,
+    "luminosity": 0.295,
+    "turbulence": 1.527,
+    "pcaX": 1.699,
+    "pcaY": -2.374,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 486,
+    "orbitRadius": 2.782,
+    "orbitalSpeed": 3.961,
+    "luminosity": 1.03,
+    "turbulence": 0.971,
+    "pcaX": 1.708,
+    "pcaY": -1.968,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 487,
+    "orbitRadius": 3.191,
+    "orbitalSpeed": 4.052,
+    "luminosity": 0.835,
+    "turbulence": 0.9,
+    "pcaX": 1.858,
+    "pcaY": -2.754,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 488,
+    "orbitRadius": 2.983,
+    "orbitalSpeed": 4.101,
+    "luminosity": 0.852,
+    "turbulence": 0.703,
+    "pcaX": 2.065,
+    "pcaY": -2.164,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 489,
+    "orbitRadius": 2.563,
+    "orbitalSpeed": 3.496,
+    "luminosity": 1.25,
+    "turbulence": 0.982,
+    "pcaX": 1.991,
+    "pcaY": -1.759,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 490,
+    "orbitRadius": 2.942,
+    "orbitalSpeed": 4.876,
+    "luminosity": 0.44,
+    "turbulence": 0.44,
+    "pcaX": 1.485,
+    "pcaY": -2.14,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 491,
+    "orbitRadius": 3.236,
+    "orbitalSpeed": 4.156,
+    "luminosity": 0.867,
+    "turbulence": 0.379,
+    "pcaX": 2.621,
+    "pcaY": -1.517,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 492,
+    "orbitRadius": 3.211,
+    "orbitalSpeed": 4.694,
+    "luminosity": 1.776,
+    "turbulence": 0.002,
+    "pcaX": 3.049,
+    "pcaY": -1.164,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 493,
+    "orbitRadius": 3.219,
+    "orbitalSpeed": 4.814,
+    "luminosity": 0.846,
+    "turbulence": 0.858,
+    "pcaX": 2.319,
+    "pcaY": -2,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 494,
+    "orbitRadius": 3.066,
+    "orbitalSpeed": 4.993,
+    "luminosity": 0.487,
+    "turbulence": 0.841,
+    "pcaX": 2.173,
+    "pcaY": -2.504,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 495,
+    "orbitRadius": 3.121,
+    "orbitalSpeed": 4.295,
+    "luminosity": 1.638,
+    "turbulence": 1.063,
+    "pcaX": 2.846,
+    "pcaY": -1.872,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 496,
+    "orbitRadius": 3.155,
+    "orbitalSpeed": 4.159,
+    "luminosity": 1.235,
+    "turbulence": -0.121,
+    "pcaX": 2.683,
+    "pcaY": -0.616,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 497,
+    "orbitRadius": 2.64,
+    "orbitalSpeed": 3.862,
+    "luminosity": 1.864,
+    "turbulence": 0.265,
+    "pcaX": 2.517,
+    "pcaY": -0.844,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 498,
+    "orbitRadius": 3.208,
+    "orbitalSpeed": 4.033,
+    "luminosity": 1.435,
+    "turbulence": -0.092,
+    "pcaX": 3.133,
+    "pcaY": -1.862,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 499,
+    "orbitRadius": 2.871,
+    "orbitalSpeed": 4.306,
+    "luminosity": 1.763,
+    "turbulence": 0.345,
+    "pcaX": 2.665,
+    "pcaY": -0.897,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 500,
+    "orbitRadius": 3.238,
+    "orbitalSpeed": 5.271,
+    "luminosity": 1.537,
+    "turbulence": 0.235,
+    "pcaX": 3.414,
+    "pcaY": -1.009,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 501,
+    "orbitRadius": 2.879,
+    "orbitalSpeed": 4.308,
+    "luminosity": 0.617,
+    "turbulence": 0.496,
+    "pcaX": 2.227,
+    "pcaY": -1.742,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 502,
+    "orbitRadius": 2.725,
+    "orbitalSpeed": 4.126,
+    "luminosity": 1.06,
+    "turbulence": 0.655,
+    "pcaX": 2.261,
+    "pcaY": -0.566,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 503,
+    "orbitRadius": 3.046,
+    "orbitalSpeed": 5.028,
+    "luminosity": 0.97,
+    "turbulence": 0.998,
+    "pcaX": 2.415,
+    "pcaY": -1.25,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 504,
+    "orbitRadius": 3.232,
+    "orbitalSpeed": 4.833,
+    "luminosity": 1.98,
+    "turbulence": 0.178,
+    "pcaX": 2.842,
+    "pcaY": -0.554,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 505,
+    "orbitRadius": 2.882,
+    "orbitalSpeed": 4.41,
+    "luminosity": 1.702,
+    "turbulence": 0.757,
+    "pcaX": 2.603,
+    "pcaY": -0.47,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 506,
+    "orbitRadius": 3.18,
+    "orbitalSpeed": 4.75,
+    "luminosity": 1.446,
+    "turbulence": -0.187,
+    "pcaX": 3.154,
+    "pcaY": -0.507,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 507,
+    "orbitRadius": 2.75,
+    "orbitalSpeed": 4.061,
+    "luminosity": 2.255,
+    "turbulence": 0.088,
+    "pcaX": 2.422,
+    "pcaY": -0.201,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 508,
+    "orbitRadius": 2.906,
+    "orbitalSpeed": 4.495,
+    "luminosity": 1.833,
+    "turbulence": 0.057,
+    "pcaX": 2.53,
+    "pcaY": -0.907,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 509,
+    "orbitRadius": 3.164,
+    "orbitalSpeed": 4.796,
+    "luminosity": 1.273,
+    "turbulence": 0.966,
+    "pcaX": 2.783,
+    "pcaY": -0.591,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 510,
+    "orbitRadius": 2.599,
+    "orbitalSpeed": 3.869,
+    "luminosity": 1.788,
+    "turbulence": 0.599,
+    "pcaX": 2.663,
+    "pcaY": -0.78,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 511,
+    "orbitRadius": 3.152,
+    "orbitalSpeed": 4.015,
+    "luminosity": 1.979,
+    "turbulence": 0.256,
+    "pcaX": 3.395,
+    "pcaY": 0.411,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 512,
+    "orbitRadius": 2.876,
+    "orbitalSpeed": 4.684,
+    "luminosity": 2.646,
+    "turbulence": -0.202,
+    "pcaX": 2.783,
+    "pcaY": 0.137,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 513,
+    "orbitRadius": 2.991,
+    "orbitalSpeed": 4.208,
+    "luminosity": 2.328,
+    "turbulence": 0.74,
+    "pcaX": 3.056,
+    "pcaY": 0.124,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 514,
+    "orbitRadius": 2.866,
+    "orbitalSpeed": 4.136,
+    "luminosity": 2.923,
+    "turbulence": -0.114,
+    "pcaX": 2.731,
+    "pcaY": 0.286,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 515,
+    "orbitRadius": 2.62,
+    "orbitalSpeed": 3.906,
+    "luminosity": 2.621,
+    "turbulence": 0.279,
+    "pcaX": 2.8,
+    "pcaY": 0.195,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 516,
+    "orbitRadius": 2.644,
+    "orbitalSpeed": 4.374,
+    "luminosity": 2.483,
+    "turbulence": 0.529,
+    "pcaX": 2.492,
+    "pcaY": 0.773,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 517,
+    "orbitRadius": 3.047,
+    "orbitalSpeed": 4.047,
+    "luminosity": 2.244,
+    "turbulence": 0.446,
+    "pcaX": 2.662,
+    "pcaY": 0.743,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 518,
+    "orbitRadius": 2.721,
+    "orbitalSpeed": 3.649,
+    "luminosity": 1.908,
+    "turbulence": 0.567,
+    "pcaX": 2.974,
+    "pcaY": 0.42,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 519,
+    "orbitRadius": 2.844,
+    "orbitalSpeed": 4.564,
+    "luminosity": 2,
+    "turbulence": -0.004,
+    "pcaX": 2.636,
+    "pcaY": 0.528,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 520,
+    "orbitRadius": 2.645,
+    "orbitalSpeed": 3.884,
+    "luminosity": 1.89,
+    "turbulence": 0.83,
+    "pcaX": 2.939,
+    "pcaY": 0.419,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 521,
+    "orbitRadius": 3.076,
+    "orbitalSpeed": 3.933,
+    "luminosity": 2.127,
+    "turbulence": 0.612,
+    "pcaX": 2.814,
+    "pcaY": 0.345,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 522,
+    "orbitRadius": 2.738,
+    "orbitalSpeed": 4.473,
+    "luminosity": 2.716,
+    "turbulence": 0.386,
+    "pcaX": 2.709,
+    "pcaY": 1.062,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 523,
+    "orbitRadius": 2.846,
+    "orbitalSpeed": 3.974,
+    "luminosity": 2.246,
+    "turbulence": 0.068,
+    "pcaX": 2.547,
+    "pcaY": 0.524,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 524,
+    "orbitRadius": 3.222,
+    "orbitalSpeed": 4.268,
+    "luminosity": 2.847,
+    "turbulence": 0.053,
+    "pcaX": 2.705,
+    "pcaY": 1.433,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 525,
+    "orbitRadius": 2.956,
+    "orbitalSpeed": 4.068,
+    "luminosity": 2.165,
+    "turbulence": 0.778,
+    "pcaX": 2.081,
+    "pcaY": 1.606,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 526,
+    "orbitRadius": 3.104,
+    "orbitalSpeed": 3.904,
+    "luminosity": 2.925,
+    "turbulence": 0.792,
+    "pcaX": 2.696,
+    "pcaY": 1.618,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 527,
+    "orbitRadius": 2.678,
+    "orbitalSpeed": 3.955,
+    "luminosity": 2.792,
+    "turbulence": 0.72,
+    "pcaX": 2.607,
+    "pcaY": 0.4,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 528,
+    "orbitRadius": 3.121,
+    "orbitalSpeed": 3.996,
+    "luminosity": 2.114,
+    "turbulence": 0.943,
+    "pcaX": 3.043,
+    "pcaY": 1.162,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 529,
+    "orbitRadius": 2.808,
+    "orbitalSpeed": 4.652,
+    "luminosity": 2.392,
+    "turbulence": 0.661,
+    "pcaX": 2.171,
+    "pcaY": 1.298,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 530,
+    "orbitRadius": 2.844,
+    "orbitalSpeed": 4.551,
+    "luminosity": 2.095,
+    "turbulence": 0.207,
+    "pcaX": 2.541,
+    "pcaY": 1.363,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 531,
+    "orbitRadius": 3.154,
+    "orbitalSpeed": 3.989,
+    "luminosity": 2.304,
+    "turbulence": 0.073,
+    "pcaX": 2.879,
+    "pcaY": 0.914,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 532,
+    "orbitRadius": 3.135,
+    "orbitalSpeed": 4.038,
+    "luminosity": 2.891,
+    "turbulence": 0.042,
+    "pcaX": 3.192,
+    "pcaY": 1.676,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 533,
+    "orbitRadius": 3.032,
+    "orbitalSpeed": 4.228,
+    "luminosity": 2.548,
+    "turbulence": 0.215,
+    "pcaX": 2.847,
+    "pcaY": 1.125,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 534,
+    "orbitRadius": 2.86,
+    "orbitalSpeed": 3.746,
+    "luminosity": 2.312,
+    "turbulence": 1.196,
+    "pcaX": 2.213,
+    "pcaY": 2.084,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 535,
+    "orbitRadius": 2.999,
+    "orbitalSpeed": 4.789,
+    "luminosity": 2.594,
+    "turbulence": 1.162,
+    "pcaX": 2.557,
+    "pcaY": 2.175,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 536,
+    "orbitRadius": 3.212,
+    "orbitalSpeed": 5.148,
+    "luminosity": 2.334,
+    "turbulence": 0.185,
+    "pcaX": 1.935,
+    "pcaY": 2.641,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 537,
+    "orbitRadius": 3.054,
+    "orbitalSpeed": 4.885,
+    "luminosity": 2.42,
+    "turbulence": 0.427,
+    "pcaX": 2.469,
+    "pcaY": 2.113,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 538,
+    "orbitRadius": 2.719,
+    "orbitalSpeed": 3.643,
+    "luminosity": 1.974,
+    "turbulence": 0.88,
+    "pcaX": 1.575,
+    "pcaY": 1.732,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 539,
+    "orbitRadius": 2.994,
+    "orbitalSpeed": 4.522,
+    "luminosity": 2.361,
+    "turbulence": 0.246,
+    "pcaX": 1.956,
+    "pcaY": 2.355,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 540,
+    "orbitRadius": 3.241,
+    "orbitalSpeed": 4.716,
+    "luminosity": 2.496,
+    "turbulence": 0.496,
+    "pcaX": 2.6,
+    "pcaY": 2.221,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 541,
+    "orbitRadius": 2.811,
+    "orbitalSpeed": 3.775,
+    "luminosity": 2.478,
+    "turbulence": 1.182,
+    "pcaX": 1.489,
+    "pcaY": 2.419,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 542,
+    "orbitRadius": 3.121,
+    "orbitalSpeed": 4.019,
+    "luminosity": 2.352,
+    "turbulence": 0.672,
+    "pcaX": 1.743,
+    "pcaY": 2.399,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 543,
+    "orbitRadius": 2.599,
+    "orbitalSpeed": 3.567,
+    "luminosity": 2.409,
+    "turbulence": 0.504,
+    "pcaX": 1.441,
+    "pcaY": 2.219,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 544,
+    "orbitRadius": 2.846,
+    "orbitalSpeed": 3.827,
+    "luminosity": 2.35,
+    "turbulence": 1.029,
+    "pcaX": 2.039,
+    "pcaY": 1.954,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 545,
+    "orbitRadius": 2.861,
+    "orbitalSpeed": 4.452,
+    "luminosity": 1.868,
+    "turbulence": 1.588,
+    "pcaX": 1.311,
+    "pcaY": 2.831,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 546,
+    "orbitRadius": 3.098,
+    "orbitalSpeed": 3.941,
+    "luminosity": 2.418,
+    "turbulence": 0.586,
+    "pcaX": 1.547,
+    "pcaY": 2.423,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 547,
+    "orbitRadius": 3.152,
+    "orbitalSpeed": 5.099,
+    "luminosity": 1.784,
+    "turbulence": 1.115,
+    "pcaX": 2.11,
+    "pcaY": 2.071,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 548,
+    "orbitRadius": 3.025,
+    "orbitalSpeed": 4.119,
+    "luminosity": 2.521,
+    "turbulence": 0.548,
+    "pcaX": 1.375,
+    "pcaY": 2.259,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 549,
+    "orbitRadius": 2.906,
+    "orbitalSpeed": 4.859,
+    "luminosity": 1.667,
+    "turbulence": 0.835,
+    "pcaX": 1.794,
+    "pcaY": 2.798,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 550,
+    "orbitRadius": 3.159,
+    "orbitalSpeed": 4.949,
+    "luminosity": 1.951,
+    "turbulence": 0.839,
+    "pcaX": 1.692,
+    "pcaY": 3.068,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 551,
+    "orbitRadius": 2.836,
+    "orbitalSpeed": 4.036,
+    "luminosity": 2.391,
+    "turbulence": 0.784,
+    "pcaX": 1.468,
+    "pcaY": 2.63,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 552,
+    "orbitRadius": 3.036,
+    "orbitalSpeed": 4.108,
+    "luminosity": 1.831,
+    "turbulence": 0.787,
+    "pcaX": 0.787,
+    "pcaY": 2.867,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 553,
+    "orbitRadius": 2.871,
+    "orbitalSpeed": 4.72,
+    "luminosity": 2.159,
+    "turbulence": 0.57,
+    "pcaX": 1.651,
+    "pcaY": 2.822,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 554,
+    "orbitRadius": 2.616,
+    "orbitalSpeed": 4.226,
+    "luminosity": 1.37,
+    "turbulence": 1.035,
+    "pcaX": 1.047,
+    "pcaY": 2.65,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 555,
+    "orbitRadius": 2.771,
+    "orbitalSpeed": 3.727,
+    "luminosity": 1.597,
+    "turbulence": 1.517,
+    "pcaX": 0.728,
+    "pcaY": 2.728,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 556,
+    "orbitRadius": 2.563,
+    "orbitalSpeed": 3.933,
+    "luminosity": 1.809,
+    "turbulence": 0.721,
+    "pcaX": 1.274,
+    "pcaY": 2.293,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 557,
+    "orbitRadius": 2.878,
+    "orbitalSpeed": 4.462,
+    "luminosity": 2.146,
+    "turbulence": 1.116,
+    "pcaX": 1.803,
+    "pcaY": 2.595,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 558,
+    "orbitRadius": 3.135,
+    "orbitalSpeed": 4.64,
+    "luminosity": 1.416,
+    "turbulence": 1.382,
+    "pcaX": 0.959,
+    "pcaY": 2.626,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 559,
+    "orbitRadius": 3.066,
+    "orbitalSpeed": 5.02,
+    "luminosity": 1.318,
+    "turbulence": 1.41,
+    "pcaX": 0.449,
+    "pcaY": 2.626,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 560,
+    "orbitRadius": 2.735,
+    "orbitalSpeed": 4.086,
+    "luminosity": 1.444,
+    "turbulence": 1.753,
+    "pcaX": 0.181,
+    "pcaY": 2.602,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 561,
+    "orbitRadius": 2.577,
+    "orbitalSpeed": 4.347,
+    "luminosity": 1.159,
+    "turbulence": 0.948,
+    "pcaX": 0.854,
+    "pcaY": 2.344,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 562,
+    "orbitRadius": 2.995,
+    "orbitalSpeed": 4.534,
+    "luminosity": 1.115,
+    "turbulence": 1.771,
+    "pcaX": 0.526,
+    "pcaY": 3.146,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 563,
+    "orbitRadius": 2.717,
+    "orbitalSpeed": 3.574,
+    "luminosity": 1.128,
+    "turbulence": 1.366,
+    "pcaX": 0.201,
+    "pcaY": 2.694,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 564,
+    "orbitRadius": 3.068,
+    "orbitalSpeed": 4.725,
+    "luminosity": 1.457,
+    "turbulence": 1.188,
+    "pcaX": 0.227,
+    "pcaY": 3.241,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 565,
+    "orbitRadius": 2.618,
+    "orbitalSpeed": 4.381,
+    "luminosity": 1.454,
+    "turbulence": 1.313,
+    "pcaX": -0.111,
+    "pcaY": 2.955,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 566,
+    "orbitRadius": 3.116,
+    "orbitalSpeed": 4.486,
+    "luminosity": 0.926,
+    "turbulence": 1.256,
+    "pcaX": -0.44,
+    "pcaY": 3.187,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 567,
+    "orbitRadius": 2.835,
+    "orbitalSpeed": 3.751,
+    "luminosity": 1.681,
+    "turbulence": 1.669,
+    "pcaX": 0.327,
+    "pcaY": 2.629,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 568,
+    "orbitRadius": 2.921,
+    "orbitalSpeed": 3.842,
+    "luminosity": 0.232,
+    "turbulence": 1.803,
+    "pcaX": -0.851,
+    "pcaY": 2.476,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 569,
+    "orbitRadius": 2.934,
+    "orbitalSpeed": 4.02,
+    "luminosity": 1.311,
+    "turbulence": 1.477,
+    "pcaX": -0.543,
+    "pcaY": 2.935,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 570,
+    "orbitRadius": 2.574,
+    "orbitalSpeed": 3.602,
+    "luminosity": 1.04,
+    "turbulence": 1.711,
+    "pcaX": -0.656,
+    "pcaY": 2.941,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 571,
+    "orbitRadius": 3.21,
+    "orbitalSpeed": 4.556,
+    "luminosity": 1.096,
+    "turbulence": 2.173,
+    "pcaX": -0.469,
+    "pcaY": 3.481,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 572,
+    "orbitRadius": 3.157,
+    "orbitalSpeed": 4.057,
+    "luminosity": 0.512,
+    "turbulence": 1.163,
+    "pcaX": -0.021,
+    "pcaY": 2.886,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 573,
+    "orbitRadius": 2.573,
+    "orbitalSpeed": 3.408,
+    "luminosity": 1.17,
+    "turbulence": 1.466,
+    "pcaX": -0.249,
+    "pcaY": 2.749,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 574,
+    "orbitRadius": 2.831,
+    "orbitalSpeed": 4.18,
+    "luminosity": 0.214,
+    "turbulence": 1.54,
+    "pcaX": -1.332,
+    "pcaY": 2.612,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 575,
+    "orbitRadius": 2.672,
+    "orbitalSpeed": 3.756,
+    "luminosity": 0.568,
+    "turbulence": 2.035,
+    "pcaX": -0.211,
+    "pcaY": 2.982,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 576,
+    "orbitRadius": 2.784,
+    "orbitalSpeed": 4.383,
+    "luminosity": 1.106,
+    "turbulence": 1.264,
+    "pcaX": -0.675,
+    "pcaY": 3.115,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 577,
+    "orbitRadius": 2.727,
+    "orbitalSpeed": 4.561,
+    "luminosity": 0.837,
+    "turbulence": 1.544,
+    "pcaX": -0.351,
+    "pcaY": 2.893,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 578,
+    "orbitRadius": 2.746,
+    "orbitalSpeed": 3.781,
+    "luminosity": 0.823,
+    "turbulence": 1.646,
+    "pcaX": -1.307,
+    "pcaY": 2.734,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 579,
+    "orbitRadius": 2.625,
+    "orbitalSpeed": 3.879,
+    "luminosity": 0.933,
+    "turbulence": 1.058,
+    "pcaX": -0.631,
+    "pcaY": 2.672,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 580,
+    "orbitRadius": 3.247,
+    "orbitalSpeed": 4.196,
+    "luminosity": 0.368,
+    "turbulence": 1.443,
+    "pcaX": -1.394,
+    "pcaY": 2.835,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 581,
+    "orbitRadius": 2.793,
+    "orbitalSpeed": 3.961,
+    "luminosity": 0.482,
+    "turbulence": 1.688,
+    "pcaX": -1.241,
+    "pcaY": 2.178,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 582,
+    "orbitRadius": 3.153,
+    "orbitalSpeed": 5.105,
+    "luminosity": 0.391,
+    "turbulence": 1.59,
+    "pcaX": -1.913,
+    "pcaY": 2.897,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 583,
+    "orbitRadius": 3.004,
+    "orbitalSpeed": 4.859,
+    "luminosity": 0.562,
+    "turbulence": 2.128,
+    "pcaX": -1.819,
+    "pcaY": 2.518,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 584,
+    "orbitRadius": 2.969,
+    "orbitalSpeed": 4.799,
+    "luminosity": 0.826,
+    "turbulence": 1.988,
+    "pcaX": -0.621,
+    "pcaY": 2.499,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 585,
+    "orbitRadius": 2.981,
+    "orbitalSpeed": 4.653,
+    "luminosity": 0.762,
+    "turbulence": 1.705,
+    "pcaX": -1.462,
+    "pcaY": 2.386,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 586,
+    "orbitRadius": 2.807,
+    "orbitalSpeed": 4.562,
+    "luminosity": 0.392,
+    "turbulence": 1.814,
+    "pcaX": -1.051,
+    "pcaY": 2.315,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 587,
+    "orbitRadius": 3.175,
+    "orbitalSpeed": 4.554,
+    "luminosity": 0.665,
+    "turbulence": 1.642,
+    "pcaX": -1.573,
+    "pcaY": 2.773,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 588,
+    "orbitRadius": 2.58,
+    "orbitalSpeed": 3.983,
+    "luminosity": 0.776,
+    "turbulence": 1.576,
+    "pcaX": -1.489,
+    "pcaY": 1.912,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 589,
+    "orbitRadius": 3.017,
+    "orbitalSpeed": 4.063,
+    "luminosity": 0.416,
+    "turbulence": 1.081,
+    "pcaX": -2.275,
+    "pcaY": 2.445,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 590,
+    "orbitRadius": 2.664,
+    "orbitalSpeed": 4.052,
+    "luminosity": 1.112,
+    "turbulence": 1.937,
+    "pcaX": -1.494,
+    "pcaY": 1.962,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 591,
+    "orbitRadius": 2.578,
+    "orbitalSpeed": 3.502,
+    "luminosity": 0.21,
+    "turbulence": 1.533,
+    "pcaX": -1.522,
+    "pcaY": 1.66,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 592,
+    "orbitRadius": 3.024,
+    "orbitalSpeed": 4.462,
+    "luminosity": 0.731,
+    "turbulence": 1.657,
+    "pcaX": -2.134,
+    "pcaY": 1.655,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 593,
+    "orbitRadius": 3.099,
+    "orbitalSpeed": 5.071,
+    "luminosity": 1.074,
+    "turbulence": 1.469,
+    "pcaX": -2.407,
+    "pcaY": 2.191,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 594,
+    "orbitRadius": 2.817,
+    "orbitalSpeed": 4.679,
+    "luminosity": 0.341,
+    "turbulence": 1.601,
+    "pcaX": -1.66,
+    "pcaY": 1.688,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 595,
+    "orbitRadius": 2.822,
+    "orbitalSpeed": 4.73,
+    "luminosity": 1.089,
+    "turbulence": 1.331,
+    "pcaX": -1.9,
+    "pcaY": 1.921,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 596,
+    "orbitRadius": 2.571,
+    "orbitalSpeed": 3.893,
+    "luminosity": 0.31,
+    "turbulence": 1.712,
+    "pcaX": -2.096,
+    "pcaY": 1.502,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 597,
+    "orbitRadius": 3.052,
+    "orbitalSpeed": 3.928,
+    "luminosity": 1.31,
+    "turbulence": 1.778,
+    "pcaX": -2.198,
+    "pcaY": 2.133,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 598,
+    "orbitRadius": 2.746,
+    "orbitalSpeed": 3.659,
+    "luminosity": 0.553,
+    "turbulence": 2.049,
+    "pcaX": -2.483,
+    "pcaY": 1.327,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 599,
+    "orbitRadius": 3.233,
+    "orbitalSpeed": 4.084,
+    "luminosity": 1.616,
+    "turbulence": 1.259,
+    "pcaX": -2.847,
+    "pcaY": 1.737,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 600,
+    "orbitRadius": 2.599,
+    "orbitalSpeed": 4.339,
+    "luminosity": 0.675,
+    "turbulence": 2.068,
+    "pcaX": -1.877,
+    "pcaY": 1.653,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 601,
+    "orbitRadius": 2.719,
+    "orbitalSpeed": 4.423,
+    "luminosity": 1.609,
+    "turbulence": 1.986,
+    "pcaX": -2.069,
+    "pcaY": 1.469,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 602,
+    "orbitRadius": 3.165,
+    "orbitalSpeed": 5.227,
+    "luminosity": 0.934,
+    "turbulence": 2.181,
+    "pcaX": -2.127,
+    "pcaY": 2.63,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 603,
+    "orbitRadius": 3.054,
+    "orbitalSpeed": 4.952,
+    "luminosity": 0.91,
+    "turbulence": 1.164,
+    "pcaX": -2.183,
+    "pcaY": 1.585,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 604,
+    "orbitRadius": 3.154,
+    "orbitalSpeed": 4.698,
+    "luminosity": 1.608,
+    "turbulence": 1.43,
+    "pcaX": -3.212,
+    "pcaY": 1.196,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 605,
+    "orbitRadius": 2.774,
+    "orbitalSpeed": 3.732,
+    "luminosity": 1.673,
+    "turbulence": 1.261,
+    "pcaX": -2.565,
+    "pcaY": 1.096,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 606,
+    "orbitRadius": 2.886,
+    "orbitalSpeed": 4.618,
+    "luminosity": 1.281,
+    "turbulence": 1.651,
+    "pcaX": -2.621,
+    "pcaY": 0.608,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 607,
+    "orbitRadius": 2.969,
+    "orbitalSpeed": 3.912,
+    "luminosity": 1.304,
+    "turbulence": 1.79,
+    "pcaX": -3.132,
+    "pcaY": 0.996,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 608,
+    "orbitRadius": 3.215,
+    "orbitalSpeed": 4.445,
+    "luminosity": 1.325,
+    "turbulence": 1.26,
+    "pcaX": -3.263,
+    "pcaY": 0.867,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 609,
+    "orbitRadius": 2.895,
+    "orbitalSpeed": 3.927,
+    "luminosity": 0.513,
+    "turbulence": 1.417,
+    "pcaX": -2.411,
+    "pcaY": 1.526,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 610,
+    "orbitRadius": 2.615,
+    "orbitalSpeed": 3.801,
+    "luminosity": 2.303,
+    "turbulence": 0.762,
+    "pcaX": -2.74,
+    "pcaY": 0.304,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 611,
+    "orbitRadius": 3.191,
+    "orbitalSpeed": 4.9,
+    "luminosity": 1.983,
+    "turbulence": 1.228,
+    "pcaX": -2.697,
+    "pcaY": 0.874,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 612,
+    "orbitRadius": 2.671,
+    "orbitalSpeed": 3.95,
+    "luminosity": 2.066,
+    "turbulence": 1.13,
+    "pcaX": -2.35,
+    "pcaY": 0.26,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 613,
+    "orbitRadius": 3.049,
+    "orbitalSpeed": 4.335,
+    "luminosity": 0.939,
+    "turbulence": 1.819,
+    "pcaX": -2.586,
+    "pcaY": 1.366,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 614,
+    "orbitRadius": 2.67,
+    "orbitalSpeed": 4.451,
+    "luminosity": 1.593,
+    "turbulence": 1.87,
+    "pcaX": -2.175,
+    "pcaY": 1.631,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 615,
+    "orbitRadius": 3.117,
+    "orbitalSpeed": 4.051,
+    "luminosity": 1.336,
+    "turbulence": 1.998,
+    "pcaX": -2.756,
+    "pcaY": 1.505,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 616,
+    "orbitRadius": 2.907,
+    "orbitalSpeed": 4.29,
+    "luminosity": 2.108,
+    "turbulence": 0.635,
+    "pcaX": -2.552,
+    "pcaY": -0.152,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 617,
+    "orbitRadius": 2.728,
+    "orbitalSpeed": 4.334,
+    "luminosity": 2.26,
+    "turbulence": 1.095,
+    "pcaX": -2.944,
+    "pcaY": 0.386,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 618,
+    "orbitRadius": 2.568,
+    "orbitalSpeed": 3.526,
+    "luminosity": 2.654,
+    "turbulence": 1.398,
+    "pcaX": -2.238,
+    "pcaY": -0.423,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 619,
+    "orbitRadius": 2.602,
+    "orbitalSpeed": 4.014,
+    "luminosity": 2.548,
+    "turbulence": 0.419,
+    "pcaX": -2.31,
+    "pcaY": -0.038,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 620,
+    "orbitRadius": 3.224,
+    "orbitalSpeed": 4.766,
+    "luminosity": 1.224,
+    "turbulence": 1.052,
+    "pcaX": -3.09,
+    "pcaY": 0.593,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 621,
+    "orbitRadius": 2.855,
+    "orbitalSpeed": 4.05,
+    "luminosity": 1.962,
+    "turbulence": 0.532,
+    "pcaX": -2.543,
+    "pcaY": -0.092,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 622,
+    "orbitRadius": 3.151,
+    "orbitalSpeed": 3.986,
+    "luminosity": 2.374,
+    "turbulence": 0.436,
+    "pcaX": -3.277,
+    "pcaY": 0.355,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 623,
+    "orbitRadius": 2.713,
+    "orbitalSpeed": 3.659,
+    "luminosity": 2.576,
+    "turbulence": 1.056,
+    "pcaX": -3,
+    "pcaY": 0.007,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 624,
+    "orbitRadius": 2.838,
+    "orbitalSpeed": 3.844,
+    "luminosity": 2.235,
+    "turbulence": 0.593,
+    "pcaX": -2.967,
+    "pcaY": -0.408,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 625,
+    "orbitRadius": 2.558,
+    "orbitalSpeed": 3.958,
+    "luminosity": 1.873,
+    "turbulence": 1.452,
+    "pcaX": -2.935,
+    "pcaY": -0.376,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 626,
+    "orbitRadius": 2.727,
+    "orbitalSpeed": 4.408,
+    "luminosity": 2.28,
+    "turbulence": 0.729,
+    "pcaX": -3.073,
+    "pcaY": 0.749,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 627,
+    "orbitRadius": 3.227,
+    "orbitalSpeed": 4.878,
+    "luminosity": 1.675,
+    "turbulence": 1.551,
+    "pcaX": -3.459,
+    "pcaY": 0.41,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 628,
+    "orbitRadius": 2.81,
+    "orbitalSpeed": 4.021,
+    "luminosity": 2.552,
+    "turbulence": 1.248,
+    "pcaX": -2.847,
+    "pcaY": -0.234,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 629,
+    "orbitRadius": 2.888,
+    "orbitalSpeed": 4.788,
+    "luminosity": 2.202,
+    "turbulence": 0.506,
+    "pcaX": -2.884,
+    "pcaY": -0.753,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 630,
+    "orbitRadius": 2.614,
+    "orbitalSpeed": 4.354,
+    "luminosity": 1.845,
+    "turbulence": 0.891,
+    "pcaX": -2.925,
+    "pcaY": -0.597,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 631,
+    "orbitRadius": 2.605,
+    "orbitalSpeed": 4.028,
+    "luminosity": 3.044,
+    "turbulence": 1.065,
+    "pcaX": -2.743,
+    "pcaY": -0.84,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 632,
+    "orbitRadius": 3.113,
+    "orbitalSpeed": 4.87,
+    "luminosity": 2.528,
+    "turbulence": 0.889,
+    "pcaX": -3.066,
+    "pcaY": -1.618,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 633,
+    "orbitRadius": 2.758,
+    "orbitalSpeed": 4.657,
+    "luminosity": 2.359,
+    "turbulence": 0.482,
+    "pcaX": -2.866,
+    "pcaY": -0.822,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 634,
+    "orbitRadius": 2.705,
+    "orbitalSpeed": 4.29,
+    "luminosity": 2.835,
+    "turbulence": 1.402,
+    "pcaX": -3.007,
+    "pcaY": -0.485,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 635,
+    "orbitRadius": 2.935,
+    "orbitalSpeed": 4.656,
+    "luminosity": 2.348,
+    "turbulence": -0.023,
+    "pcaX": -2.111,
+    "pcaY": -1.798,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 636,
+    "orbitRadius": 2.606,
+    "orbitalSpeed": 3.928,
+    "luminosity": 2.534,
+    "turbulence": 0.682,
+    "pcaX": -2.707,
+    "pcaY": -1.181,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 637,
+    "orbitRadius": 2.893,
+    "orbitalSpeed": 4.038,
+    "luminosity": 2.937,
+    "turbulence": 1.275,
+    "pcaX": -2.878,
+    "pcaY": -0.889,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 638,
+    "orbitRadius": 2.776,
+    "orbitalSpeed": 4.357,
+    "luminosity": 2.428,
+    "turbulence": 0.71,
+    "pcaX": -2.342,
+    "pcaY": -1.499,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 639,
+    "orbitRadius": 2.59,
+    "orbitalSpeed": 4.38,
+    "luminosity": 2.846,
+    "turbulence": 0.621,
+    "pcaX": -2.341,
+    "pcaY": -1.42,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 640,
+    "orbitRadius": 2.753,
+    "orbitalSpeed": 4.087,
+    "luminosity": 2.919,
+    "turbulence": 0.626,
+    "pcaX": -2.807,
+    "pcaY": -1.048,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 641,
+    "orbitRadius": 2.956,
+    "orbitalSpeed": 4.672,
+    "luminosity": 2.969,
+    "turbulence": 0.757,
+    "pcaX": -2.292,
+    "pcaY": -1.684,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 642,
+    "orbitRadius": 2.805,
+    "orbitalSpeed": 4.491,
+    "luminosity": 2.911,
+    "turbulence": 0.183,
+    "pcaX": -2.597,
+    "pcaY": -1.018,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 643,
+    "orbitRadius": 2.953,
+    "orbitalSpeed": 4.623,
+    "luminosity": 2.63,
+    "turbulence": 0.763,
+    "pcaX": -2.362,
+    "pcaY": -1.934,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 644,
+    "orbitRadius": 3.033,
+    "orbitalSpeed": 4.937,
+    "luminosity": 2.703,
+    "turbulence": 0.726,
+    "pcaX": -2.42,
+    "pcaY": -2.336,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 645,
+    "orbitRadius": 2.609,
+    "orbitalSpeed": 3.863,
+    "luminosity": 2.867,
+    "turbulence": 0.306,
+    "pcaX": -1.814,
+    "pcaY": -1.228,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 646,
+    "orbitRadius": 3.047,
+    "orbitalSpeed": 3.916,
+    "luminosity": 2.953,
+    "turbulence": 1.021,
+    "pcaX": -2.229,
+    "pcaY": -1.456,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 647,
+    "orbitRadius": 3.136,
+    "orbitalSpeed": 4.711,
+    "luminosity": 2.976,
+    "turbulence": 0.671,
+    "pcaX": -2.705,
+    "pcaY": -2.056,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 648,
+    "orbitRadius": 2.918,
+    "orbitalSpeed": 4.843,
+    "luminosity": 2.122,
+    "turbulence": 0.35,
+    "pcaX": -2.603,
+    "pcaY": -1.486,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 649,
+    "orbitRadius": 2.859,
+    "orbitalSpeed": 4.439,
+    "luminosity": 1.801,
+    "turbulence": 0.826,
+    "pcaX": -1.952,
+    "pcaY": -2.349,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 650,
+    "orbitRadius": 3.097,
+    "orbitalSpeed": 4.786,
+    "luminosity": 2.871,
+    "turbulence": 0.45,
+    "pcaX": -2.391,
+    "pcaY": -1.949,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 651,
+    "orbitRadius": 2.766,
+    "orbitalSpeed": 3.575,
+    "luminosity": 3.025,
+    "turbulence": 0.072,
+    "pcaX": -2.33,
+    "pcaY": -1.501,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 652,
+    "orbitRadius": 2.944,
+    "orbitalSpeed": 4.309,
+    "luminosity": 2.387,
+    "turbulence": 0.752,
+    "pcaX": -2.161,
+    "pcaY": -2.08,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 653,
+    "orbitRadius": 2.959,
+    "orbitalSpeed": 4.371,
+    "luminosity": 1.87,
+    "turbulence": 0.868,
+    "pcaX": -1.371,
+    "pcaY": -2.733,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 654,
+    "orbitRadius": 3.103,
+    "orbitalSpeed": 4.673,
+    "luminosity": 2.614,
+    "turbulence": 0.608,
+    "pcaX": -2.249,
+    "pcaY": -2.516,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 655,
+    "orbitRadius": 2.981,
+    "orbitalSpeed": 4.384,
+    "luminosity": 2.182,
+    "turbulence": -0.168,
+    "pcaX": -1.426,
+    "pcaY": -2.467,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 656,
+    "orbitRadius": 2.948,
+    "orbitalSpeed": 4.172,
+    "luminosity": 2.432,
+    "turbulence": 0.788,
+    "pcaX": -2.332,
+    "pcaY": -1.717,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 657,
+    "orbitRadius": 3.07,
+    "orbitalSpeed": 4.013,
+    "luminosity": 2.178,
+    "turbulence": -0.152,
+    "pcaX": -2.461,
+    "pcaY": -2.36,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 658,
+    "orbitRadius": 2.866,
+    "orbitalSpeed": 4.619,
+    "luminosity": 2.298,
+    "turbulence": 0.306,
+    "pcaX": -1.775,
+    "pcaY": -2.185,
+    "pattern": "Centaurus"
+  },
+  {
+    "id": 659,
+    "orbitRadius": 3.19,
+    "orbitalSpeed": 4.021,
+    "luminosity": 2.568,
+    "turbulence": 0.524,
+    "pcaX": -2.156,
+    "pcaY": -2.645,
+    "pattern": "Centaurus"
+  }
+]
