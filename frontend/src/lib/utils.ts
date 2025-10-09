@@ -1,4 +1,10 @@
-import { Species, IrisSample } from '../types';
+import { Species, IrisSample, SplitKey, splitLabels } from '../types';
+
+const splitColors: Record<SplitKey, string> = {
+  train: '#6366f1',
+  val: '#f97316',
+  test: '#22c55e',
+};
 
 export function seedShuffle<T>(items: T[], seed: number): T[] {
   const result = [...items];
@@ -20,12 +26,12 @@ export function seedShuffle<T>(items: T[], seed: number): T[] {
   return result;
 }
 
-export function buildPieData(splits: { train: number; val: number; test: number }) {
-  return [
-    { name: 'Train', value: splits.train, color: '#6366f1' },
-    { name: 'Validation', value: splits.val, color: '#f97316' },
-    { name: 'Test', value: splits.test, color: '#22c55e' },
-  ];
+export function buildPieData(splits: Record<SplitKey, number>) {
+  return (Object.entries(splits) as Array<[SplitKey, number]>).map(([key, value]) => ({
+    name: splitLabels[key],
+    value,
+    color: splitColors[key],
+  }));
 }
 
 export function formatPercent(value: number | null) {

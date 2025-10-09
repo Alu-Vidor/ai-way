@@ -72,7 +72,7 @@ export function SortableLayerCard({ layer, index, onChange, onRemove }: Sortable
         </div>
 
         <div className="space-y-2">
-          <Label>Dropout</Label>
+          <Label>Отсев (dropout)</Label>
           <div className="flex items-center gap-3">
             <Slider
               min={0}
@@ -86,7 +86,7 @@ export function SortableLayerCard({ layer, index, onChange, onRemove }: Sortable
         </div>
 
         <div className="space-y-2">
-          <Label>BatchNorm</Label>
+          <Label>Нормализация батча</Label>
           <label className="flex items-center gap-3 text-sm font-medium text-muted-foreground">
             <input
               type="checkbox"
@@ -94,7 +94,7 @@ export function SortableLayerCard({ layer, index, onChange, onRemove }: Sortable
               onChange={(event) => onChange(layer.id, { batchNorm: event.target.checked })}
               className="h-4 w-4 rounded border-border text-primary focus:ring-primary"
             />
-            Выровнять распределение
+            Выровнять распределение признаков
           </label>
         </div>
       </div>

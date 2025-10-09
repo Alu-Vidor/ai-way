@@ -1,5 +1,11 @@
 export type Species = 'Setosa' | 'Versicolor' | 'Virginica';
 
+export const speciesLabels: Record<Species, string> = {
+  Setosa: 'Сетоза',
+  Versicolor: 'Версиколор',
+  Virginica: 'Виргиника',
+};
+
 export interface IrisSample {
   id: number;
   sepalLength: number;
@@ -19,7 +25,15 @@ export interface LayerConfig {
   batchNorm: boolean;
 }
 
-export type SplitData = Record<'train' | 'val' | 'test', IrisSample[]>;
+export type SplitKey = 'train' | 'val' | 'test';
+
+export const splitLabels: Record<SplitKey, string> = {
+  train: 'Обучение',
+  val: 'Валидация',
+  test: 'Тест',
+};
+
+export type SplitData = Record<SplitKey, IrisSample[]>;
 
 export interface HistoryPoint {
   epoch: number;

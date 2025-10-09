@@ -1,4 +1,4 @@
-import { SamplePredictionRow } from '../types';
+import { SamplePredictionRow, speciesLabels } from '../types';
 import { getClassColor } from '../lib/utils';
 
 interface SamplePredictionsProps {
@@ -11,10 +11,10 @@ export function SamplePredictions({ predictions }: SamplePredictionsProps) {
       <table className="min-w-full divide-y divide-border text-sm">
         <thead className="bg-muted/60">
           <tr>
-            <th className="px-4 py-3 text-left font-semibold text-muted-foreground">SepalLength</th>
-            <th className="px-4 py-3 text-left font-semibold text-muted-foreground">SepalWidth</th>
+            <th className="px-4 py-3 text-left font-semibold text-muted-foreground">Длина чашелистика</th>
+            <th className="px-4 py-3 text-left font-semibold text-muted-foreground">Ширина чашелистика</th>
             <th className="px-4 py-3 text-left font-semibold text-muted-foreground">Настоящий вид</th>
-            <th className="px-4 py-3 text-left font-semibold text-muted-foreground">Предсказано</th>
+            <th className="px-4 py-3 text-left font-semibold text-muted-foreground">Предсказание</th>
           </tr>
         </thead>
         <tbody className="divide-y divide-border bg-white/70">
@@ -25,13 +25,13 @@ export function SamplePredictions({ predictions }: SamplePredictionsProps) {
               <td className="px-4 py-3 font-medium text-foreground">
                 <span className="flex items-center gap-2">
                   <span className="h-3 w-3 rounded-full" style={{ background: getClassColor(sample.species) }} />
-                  {sample.species}
+                  {speciesLabels[sample.species]}
                 </span>
               </td>
               <td className="px-4 py-3 font-medium text-foreground">
                 <span className="flex items-center gap-2">
                   <span className="h-3 w-3 rounded-full" style={{ background: getClassColor(predicted) }} />
-                  {predicted} {correct ? '✅' : '❌'}
+                  {speciesLabels[predicted]} {correct ? '✅' : '❌'}
                 </span>
               </td>
             </tr>
