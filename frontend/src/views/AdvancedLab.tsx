@@ -46,7 +46,9 @@ const defaultLayers: LayerConfig[] = [
 ];
 
 const minSplit = 10;
-const epochs = 45;
+const minEpochs = 5;
+const maxEpochs = 30;
+const defaultEpochs = 18;
 
 function useLayerSensors() {
   return useSensors(
@@ -119,6 +121,7 @@ export function AdvancedLab() {
   const [isTraining, setIsTraining] = useState(false);
   const [summary, setSummary] = useState<AdvancedTrainingSummary>(initialState);
   const [activeScatter, setActiveScatter] = useState<SplitKey>('train');
+  const [epochCount, setEpochCount] = useState(defaultEpochs);
 
   const samples = useMemo(() => {
     return (advancedData as GalaxySample[]).map((item, index) => ({ ...item, id: index }));
@@ -263,7 +266,7 @@ export function AdvancedLab() {
       const valAccuracyPoints: HistoryPoint[] = [];
 
       await model.fit(trainXs, trainYs, {
-        epochs,
+        epochs: epochCount,
         shuffle: true,
         validationData: valXs && valYs ? [valXs, valYs] : undefined,
         callbacks: {
@@ -347,7 +350,7 @@ export function AdvancedLab() {
       disposeTensors.forEach((tensor) => tensor.dispose());
       setIsTraining(false);
     }
-  }, [dataSplit, isTraining, layers, seed]);
+  }, [dataSplit, epochCount, isTraining, layers, seed]);
 
   const summaryCards = useMemo(() => {
     if (!summary.history.length) return null;
@@ -601,6 +604,21 @@ export function AdvancedLab() {
       <section className="space-y-6">
         <Card title="Запусти обучение" description="Следи за процессом — хорошая модель стабильно держит высокую точность.">
           <div className="flex flex-col gap-6">
+            <div className="max-w-sm space-y-2">
+              <Label htmlFor="epochs">Сколько эпох обучать</Label>
+              <div className="flex items-center gap-3">
+                <Slider
+                  id="epochs"
+                  min={minEpochs}
+                  max={maxEpochs}
+                  step={1}
+                  value={[epochCount]}
+                  onValueChange={([value]) => setEpochCount(Math.round(value))}
+                />
+                <span className="text-sm font-semibold text-muted-foreground">{epochCount}</span>
+              </div>
+              <p className="text-xs text-muted-foreground">Максимум {maxEpochs} эпох — не даём сети переобучиться.</p>
+            </div>
             <Button onClick={handleTrain} disabled={!canTrain} className="self-start">
               {isTraining ? 'Учимся…' : 'Стартовать обучение 🚀'}
             </Button>

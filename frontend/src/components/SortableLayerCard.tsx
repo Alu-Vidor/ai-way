@@ -48,7 +48,7 @@ export function SortableLayerCard({ layer, index, onChange, onRemove }: Sortable
             id={`${layer.id}-units`}
             type="number"
             min={1}
-            max={64}
+            max={128}
             value={layer.units}
             onChange={(event) => onChange(layer.id, { units: Number(event.target.value) })}
             className="w-full rounded-lg border border-border px-3 py-2 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
