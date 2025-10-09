@@ -30,12 +30,25 @@ import type { ScatterPointItem } from 'recharts/types/cartesian/Scatter';
 import { SortableLayerCard } from './components/SortableLayerCard';
 import { NetworkOutputCard } from './components/NetworkOutputCard';
 import { buildPieData, formatPercent, getClassColor, seedShuffle } from './lib/utils';
-import { Species, IrisSample, LayerConfig, SplitData, HistoryPoint, ConfusionMatrixCell, TrainingSummary, DecisionGridData } from './types';
+import {
+  Species,
+  IrisSample,
+  LayerConfig,
+  SplitData,
+  HistoryPoint,
+  ConfusionMatrixCell,
+  TrainingSummary,
+  DecisionGridData,
+  splitLabels,
+  SplitKey,
+  speciesLabels,
+} from './types';
 import { DecisionBoundaryCanvas } from './components/DecisionBoundaryCanvas';
 import { SamplePredictions } from './components/SamplePredictions';
 import { ModelHints } from './components/ModelHints';
 
 const speciesOrder: Species[] = ['Setosa', 'Versicolor', 'Virginica'];
+const splitKeys: SplitKey[] = ['train', 'val', 'test'];
 
 const defaultLayers: LayerConfig[] = [
   {
@@ -121,7 +134,7 @@ function App() {
   const [layers, setLayers] = useState<LayerConfig[]>(defaultLayers);
   const [isTraining, setIsTraining] = useState(false);
   const [summary, setSummary] = useState<TrainingSummary>(initialState);
-  const [activeScatter, setActiveScatter] = useState<'train' | 'val' | 'test'>('train');
+  const [activeScatter, setActiveScatter] = useState<SplitKey>('train');
   const [decisionGrid, setDecisionGrid] = useState<DecisionGridData | null>(null);
 
   const samples = useMemo(() => {
@@ -400,9 +413,16 @@ function App() {
                 <YAxis tickLine={false} axisLine={false} />
                 <Tooltip formatter={(value: number) => value.toFixed(3)} labelFormatter={(label) => `Эпоха ${label}`} />
                 <Legend />
-                <Line type="monotone" dataKey="loss" name="Train" stroke="#6366f1" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="loss" name="Обучение" stroke="#6366f1" strokeWidth={2} dot={false} />
                 {summary.valHistory.length > 0 && (
-                  <Line type="monotone" dataKey="valLoss" name="Validation" stroke="#f97316" strokeWidth={2} dot={false} />
+                  <Line
+                    type="monotone"
+                    dataKey="valLoss"
+                    name="Валидация"
+                    stroke="#f97316"
+                    strokeWidth={2}
+                    dot={false}
+                  />
                 )}
               </LineChart>
             </ResponsiveContainer>
@@ -421,12 +441,12 @@ function App() {
                   labelFormatter={(label) => `Эпоха ${label}`}
                 />
                 <Legend />
-                <Line type="monotone" dataKey="accuracy" name="Train" stroke="#22c55e" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="accuracy" name="Обучение" stroke="#22c55e" strokeWidth={2} dot={false} />
                 {summary.valAccuracyHistory.length > 0 && (
                   <Line
                     type="monotone"
                     dataKey="valAccuracy"
-                    name="Validation"
+                    name="Валидация"
                     stroke="#f97316"
                     strokeWidth={2}
                     dot={false}
@@ -456,7 +476,7 @@ function App() {
             <div className="grid gap-4 md:grid-cols-2">
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
-                  <Label htmlFor="train">Train</Label>
+                  <Label htmlFor="train">{splitLabels.train}</Label>
                   <span className="text-sm font-semibold text-foreground">{splits.train}%</span>
                 </div>
                 <Slider
@@ -470,7 +490,7 @@ function App() {
               </div>
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
-                  <Label htmlFor="val">Validation</Label>
+                  <Label htmlFor="val">{splitLabels.val}</Label>
                   <span className="text-sm font-semibold text-foreground">{splits.val}%</span>
                 </div>
                 <Slider id="val" value={[splits.val]} min={minSplit} max={45} step={5} onValueChange={([value]) => updateVal(value)} />
@@ -517,9 +537,9 @@ function App() {
 
             {dataSplit && (
               <div className="grid gap-4 md:grid-cols-3">
-                {(['train', 'val', 'test'] as const).map((key) => (
+                {splitKeys.map((key) => (
                   <div key={key} className="rounded-lg border border-border bg-white/70 p-4 text-sm shadow-sm">
-                    <p className="font-semibold uppercase text-muted-foreground">{key}</p>
+                    <p className="font-semibold uppercase text-muted-foreground">{splitLabels[key].toUpperCase()}</p>
                     <p className="text-2xl font-bold text-foreground">{dataSplit[key].length}</p>
                   </div>
                 ))}
@@ -534,7 +554,7 @@ function App() {
                     className="flex items-center gap-2 rounded-full bg-muted px-3 py-1 font-medium text-muted-foreground"
                   >
                     <span className="h-3 w-3 rounded-full" style={{ background: getClassColor(species) }} />
-                    {species}
+                    {speciesLabels[species]}
                   </span>
                 ))}
               </div>
@@ -545,9 +565,9 @@ function App() {
         <Card title="Как выглядят цветы" description="Каждая точка — цветок. Цвет точки — вид ириса.">
           <div className="flex flex-col gap-4">
             <div className="flex gap-2">
-              {(['train', 'val', 'test'] as const).map((key) => (
+              {splitKeys.map((key) => (
                 <Button key={key} variant={activeScatter === key ? 'default' : 'outline'} onClick={() => setActiveScatter(key)}>
-                  {key === 'train' ? 'Train' : key === 'val' ? 'Validation' : 'Test'}
+                  {splitLabels[key]}
                 </Button>
               ))}
             </div>
@@ -565,7 +585,7 @@ function App() {
                   {speciesOrder.map((species) => (
                     <Scatter
                       key={species}
-                      name={species}
+                      name={speciesLabels[species]}
                       data={datasetForScatter.filter((sample) => sample.species === species)}
                       fill={getClassColor(species)}
                       shape="circle"
@@ -642,13 +662,29 @@ function App() {
                 <div className="h-64 w-full">
                   <ResponsiveContainer width="100%" height="100%">
                     <ScatterChart margin={{ top: 20, right: 20, bottom: 20, left: 20 }}>
-                      <XAxis type="number" dataKey="x" name="Предсказание" domain={[0, 2]} ticks={[0, 1, 2]} tickFormatter={(value) => speciesOrder[value]} />
-                      <YAxis type="number" dataKey="y" name="Настоящий класс" domain={[0, 2]} ticks={[0, 1, 2]} tickFormatter={(value) => speciesOrder[value]} />
+                      <XAxis
+                        type="number"
+                        dataKey="x"
+                        name="Предсказание"
+                        domain={[0, 2]}
+                        ticks={[0, 1, 2]}
+                        tickFormatter={(value) => speciesLabels[speciesOrder[value]]}
+                      />
+                      <YAxis
+                        type="number"
+                        dataKey="y"
+                        name="Настоящий класс"
+                        domain={[0, 2]}
+                        ticks={[0, 1, 2]}
+                        tickFormatter={(value) => speciesLabels[speciesOrder[value]]}
+                      />
                       <ZAxis type="number" dataKey="value" range={[50, 400]} />
                       <Tooltip
                         formatter={(value: number, _name, context) => {
                           const data = context?.payload as MatrixPoint | undefined;
-                          const label = data ? `${data.cell.actual} → ${data.cell.predicted}` : '';
+                          const label = data
+                            ? `${speciesLabels[data.cell.actual]} → ${speciesLabels[data.cell.predicted]}`
+                            : '';
                           return [`${value} образцов`, label];
                         }}
                       />
