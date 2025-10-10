@@ -50,11 +50,12 @@ function App() {
               return (
                 <Button
                   key={tab.id}
-                  variant={isActive ? 'default' : 'outline'}
+                  variant="ghost"
                   className={
-                    isActive
-                      ? 'bg-white/90 text-slate-900 hover:bg-white'
-                      : 'border-white/50 text-white hover:bg-white/10 hover:text-white'
+                    'border backdrop-blur transition-all ' +
+                    (isActive
+                      ? 'border-white/80 bg-white text-slate-900 shadow-lg hover:bg-white/90 hover:text-slate-900'
+                      : 'border-white/40 bg-white/10 text-white/90 hover:bg-white/20 hover:text-white')
                   }
                   onClick={() => setActiveTab(tab.id)}
                 >

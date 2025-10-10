@@ -23,10 +23,8 @@ import {
   Tooltip,
   XAxis,
   YAxis,
-  ZAxis,
   Legend,
 } from 'recharts';
-import type { ScatterPointItem } from 'recharts/types/cartesian/Scatter';
 import { SortableLayerCard } from '../components/SortableLayerCard';
 import { NetworkOutputCard } from '../components/NetworkOutputCard';
 import { buildPieData, formatPercent, getClassColor, seedShuffle } from '../lib/utils';
@@ -44,6 +42,7 @@ import {
   speciesLabels,
 } from '../types';
 import { DecisionBoundaryCanvas } from '../components/DecisionBoundaryCanvas';
+import { ConfusionMatrixTable } from '../components/ConfusionMatrixTable';
 import { SamplePredictions } from '../components/SamplePredictions';
 import { ModelHints } from '../components/ModelHints';
 
@@ -135,7 +134,7 @@ export function IrisLab() {
   const [isTraining, setIsTraining] = useState(false);
   const [summary, setSummary] = useState<TrainingSummary>(initialState);
   const [activeScatter, setActiveScatter] = useState<SplitKey>('train');
-  const [decisionGrid, setDecisionGrid] = useState<DecisionGridData | null>(null);
+  const [decisionGrid, setDecisionGrid] = useState<DecisionGridData<Species> | null>(null);
 
   const samples = useMemo(() => {
     return (irisData as IrisSample[]).map((item, index) => ({ ...item, id: index }));
@@ -647,6 +646,10 @@ export function IrisLab() {
           <DecisionBoundaryCanvas
             grid={decisionGrid}
             points={dataSplit.test}
+            getPointClass={(point) => point.species}
+            getClassColor={getClassColor}
+            title="Как сеть рисует границы ✍️"
+            description="Цветной фон — решение сети, точки — настоящие ирисы из теста. Если точка в чужой зоне, сеть ошиблась."
           />
         )}
 
@@ -659,40 +662,12 @@ export function IrisLab() {
               </div>
 
               {summary.confusionMatrix && (
-                <div className="h-64 w-full">
-                  <ResponsiveContainer width="100%" height="100%">
-                    <ScatterChart margin={{ top: 20, right: 20, bottom: 20, left: 20 }}>
-                      <XAxis
-                        type="number"
-                        dataKey="x"
-                        name="Предсказание"
-                        domain={[0, 2]}
-                        ticks={[0, 1, 2]}
-                        tickFormatter={(value) => speciesLabels[speciesOrder[value]]}
-                      />
-                      <YAxis
-                        type="number"
-                        dataKey="y"
-                        name="Настоящий класс"
-                        domain={[0, 2]}
-                        ticks={[0, 1, 2]}
-                        tickFormatter={(value) => speciesLabels[speciesOrder[value]]}
-                      />
-                      <ZAxis type="number" dataKey="value" range={[50, 400]} />
-                      <Tooltip
-                        formatter={(value: number, _name, context) => {
-                          const data = context?.payload as MatrixPoint | undefined;
-                          const label = data
-                            ? `${speciesLabels[data.cell.actual]} → ${speciesLabels[data.cell.predicted]}`
-                            : '';
-                          return [`${value} образцов`, label];
-                        }}
-                      />
-                      <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
-                      <Scatter data={flattenMatrix(summary.confusionMatrix)} shape={renderMatrixCell} />
-                    </ScatterChart>
-                  </ResponsiveContainer>
-                </div>
+                <ConfusionMatrixTable
+                  matrix={summary.confusionMatrix}
+                  classOrder={speciesOrder}
+                  getClassLabel={(value) => speciesLabels[value]}
+                  getClassColor={getClassColor}
+                />
               )}
 
               {summary.samplePredictions.length > 0 && (
@@ -706,50 +681,7 @@ export function IrisLab() {
   );
 }
 
-interface MatrixPoint {
-  x: number;
-  y: number;
-  value: number;
-  cell: ConfusionMatrixCell;
-}
-
-function flattenMatrix(matrix: ConfusionMatrixCell[][]) {
-  const items: MatrixPoint[] = [];
-  matrix.forEach((row, rowIndex) => {
-    row.forEach((cell, colIndex) => {
-      items.push({ x: colIndex, y: rowIndex, value: cell.value, cell });
-    });
-  });
-  return items;
-}
-
-function renderMatrixCell(props: unknown) {
-  const { cx = 0, cy = 0, payload } = (props ?? {}) as ScatterPointItem;
-  const matrixPayload = payload as MatrixPoint | undefined;
-  if (!matrixPayload) {
-    return <g />;
-  }
-  const { value } = matrixPayload;
-  const size = 60;
-  const intensity = value === 0 ? 0 : Math.min(value / 15, 1);
-  return (
-    <g>
-      <rect
-        x={cx - size / 2}
-        y={cy - size / 2}
-        width={size}
-        height={size}
-        rx={12}
-        fill={`rgba(99, 102, 241, ${0.2 + intensity * 0.6})`}
-      />
-      <text x={cx} y={cy} textAnchor="middle" dominantBaseline="central" fontSize={16} fontWeight={600} fill="#1f2937">
-        {value}
-      </text>
-    </g>
-  );
-}
-
-function generateDecisionGrid(model: tf.LayersModel, means: number[], std: number[]): DecisionGridData {
+function generateDecisionGrid(model: tf.LayersModel, means: number[], std: number[]): DecisionGridData<Species> {
   const gridSize = 60;
   const xs = (irisData as IrisSample[]).map((sample) => sample.pcaX);
   const ys = (irisData as IrisSample[]).map((sample) => sample.pcaY);
@@ -788,5 +720,5 @@ function generateDecisionGrid(model: tf.LayersModel, means: number[], std: numbe
     decision.push(row);
   }
 
-  return { grid: decision, minX, maxX, minY, maxY };
+  return { grid: decision, minX, maxX, minY, maxY, classOrder: speciesOrder };
 }

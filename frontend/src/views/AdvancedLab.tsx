@@ -9,6 +9,8 @@ import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
 import { Label } from '../components/ui/label';
 import { Slider } from '../components/ui/slider';
+import { DecisionBoundaryCanvas } from '../components/DecisionBoundaryCanvas';
+import { ConfusionMatrixTable } from '../components/ConfusionMatrixTable';
 import {
   CartesianGrid,
   Cell,
@@ -22,15 +24,13 @@ import {
   Tooltip,
   XAxis,
   YAxis,
-  ZAxis,
   Legend,
 } from 'recharts';
-import type { ScatterPointItem } from 'recharts/types/cartesian/Scatter';
 import { SortableLayerCard } from '../components/SortableLayerCard';
 import { NetworkOutputCard } from '../components/NetworkOutputCard';
 import { ModelHints } from '../components/ModelHints';
 import { buildPieData, formatPercent, seedShuffle } from '../lib/utils';
-import { LayerConfig, HistoryPoint, SplitKey, splitLabels } from '../types';
+import { DecisionGridData, FeatureStats, LayerConfig, HistoryPoint, SplitKey, splitLabels } from '../types';
 
 const patternOrder: GalaxyClass[] = ['Orion', 'Andromeda', 'Centaurus'];
 const splitKeys: SplitKey[] = ['train', 'val', 'test'];
@@ -109,6 +109,7 @@ const initialState: AdvancedTrainingSummary = {
   testAccuracy: null,
   confusionMatrix: null,
   samplePredictions: [],
+  featureStats: null,
 };
 
 export function AdvancedLab() {
@@ -120,6 +121,7 @@ export function AdvancedLab() {
   const [layers, setLayers] = useState<LayerConfig[]>(defaultLayers);
   const [isTraining, setIsTraining] = useState(false);
   const [summary, setSummary] = useState<AdvancedTrainingSummary>(initialState);
+  const [decisionGrid, setDecisionGrid] = useState<DecisionGridData<GalaxyClass> | null>(null);
   const [activeScatter, setActiveScatter] = useState<SplitKey>('train');
   const [epochCount, setEpochCount] = useState(defaultEpochs);
 
@@ -138,6 +140,7 @@ export function AdvancedLab() {
     setDataSplit({ train, val, test });
     setDataReady(true);
     setSummary(initialState);
+    setDecisionGrid(null);
   }, [samples, seed, splits]);
 
   const handleAddLayer = () => {
@@ -188,6 +191,7 @@ export function AdvancedLab() {
     if (!dataSplit || isTraining) return;
     setIsTraining(true);
     setSummary(initialState);
+    setDecisionGrid(null);
 
     const disposeTensors: tf.Tensor[] = [];
 
@@ -333,6 +337,9 @@ export function AdvancedLab() {
         }));
       }
 
+      const decision = generateGalaxyDecisionGrid(model, featureMeans, featureStd, samples);
+      setDecisionGrid(decision);
+
       setSummary({
         history: historyPoints,
         accuracyHistory: accuracyPoints,
@@ -341,6 +348,7 @@ export function AdvancedLab() {
         testAccuracy,
         confusionMatrix,
         samplePredictions: samplesPreview,
+        featureStats: { means: featureMeans, std: featureStd },
       });
 
       model.dispose();
@@ -350,7 +358,7 @@ export function AdvancedLab() {
       disposeTensors.forEach((tensor) => tensor.dispose());
       setIsTraining(false);
     }
-  }, [dataSplit, epochCount, isTraining, layers, seed]);
+  }, [dataSplit, epochCount, isTraining, layers, samples, seed]);
 
   const summaryCards = useMemo(() => {
     if (!summary.history.length) return null;
@@ -626,6 +634,17 @@ export function AdvancedLab() {
           </div>
         </Card>
 
+        {decisionGrid && dataSplit && (
+          <DecisionBoundaryCanvas
+            grid={decisionGrid}
+            points={dataSplit.test}
+            getPointClass={(sample) => sample.pattern}
+            getClassColor={getPatternColor}
+            title="Как сеть чертит космические границы 🌌"
+            description="Цветной фон показывает решение сети, точки — настоящие галактики из тестовой выборки."
+          />
+        )}
+
         {summary.testAccuracy !== null && (
           <Card title="Контрольная проверка" description="Смотрим, насколько хорошо сеть запоминает космические паттерны.">
             <div className="flex flex-col gap-6">
@@ -635,40 +654,12 @@ export function AdvancedLab() {
               </div>
 
               {summary.confusionMatrix && (
-                <div className="h-64 w-full">
-                  <ResponsiveContainer width="100%" height="100%">
-                    <ScatterChart margin={{ top: 20, right: 20, bottom: 20, left: 20 }}>
-                      <XAxis
-                        type="number"
-                        dataKey="x"
-                        name="Предсказание"
-                        domain={[0, 2]}
-                        ticks={[0, 1, 2]}
-                        tickFormatter={(value) => patternLabels[patternOrder[value]]}
-                      />
-                      <YAxis
-                        type="number"
-                        dataKey="y"
-                        name="Настоящий класс"
-                        domain={[0, 2]}
-                        ticks={[0, 1, 2]}
-                        tickFormatter={(value) => patternLabels[patternOrder[value]]}
-                      />
-                      <ZAxis type="number" dataKey="value" range={[50, 400]} />
-                      <Tooltip
-                        formatter={(value: number, _name, context) => {
-                          const data = context?.payload as MatrixPoint | undefined;
-                          const label = data
-                            ? `${patternLabels[data.cell.actual]} → ${patternLabels[data.cell.predicted]}`
-                            : '';
-                          return [`${value} наблюдений`, label];
-                        }}
-                      />
-                      <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
-                      <Scatter data={flattenMatrix(summary.confusionMatrix)} shape={renderMatrixCell} />
-                    </ScatterChart>
-                  </ResponsiveContainer>
-                </div>
+                <ConfusionMatrixTable
+                  matrix={summary.confusionMatrix}
+                  classOrder={patternOrder}
+                  getClassLabel={(value) => patternLabels[value]}
+                  getClassColor={getPatternColor}
+                />
               )}
 
               {summary.samplePredictions.length > 0 && (
@@ -717,13 +708,7 @@ interface AdvancedTrainingSummary {
   testAccuracy: number | null;
   confusionMatrix: GalaxyConfusionCell[][] | null;
   samplePredictions: AdvancedPrediction[];
-}
-
-interface MatrixPoint {
-  x: number;
-  y: number;
-  value: number;
-  cell: GalaxyConfusionCell;
+  featureStats: FeatureStats | null;
 }
 
 function toFeatureRow(sample: GalaxySample) {
@@ -748,45 +733,6 @@ const patternLabels: Record<GalaxyClass, string> = {
   Andromeda: 'Туманность Андромеды',
   Centaurus: 'Рой Центавра',
 };
-
-function flattenMatrix(matrix: GalaxyConfusionCell[][]) {
-  const items: MatrixPoint[] = [];
-  matrix.forEach((row, rowIndex) => {
-    row.forEach((cell, colIndex) => {
-      items.push({ x: colIndex, y: rowIndex, value: cell.value, cell });
-    });
-  });
-  return items;
-}
-
-function renderMatrixCell(props: unknown) {
-  const { cx = 0, cy = 0, payload } = (props ?? {}) as ScatterPointItem;
-  const matrixPayload = payload as MatrixPoint | undefined;
-  if (!matrixPayload) {
-    return <g />;
-  }
-  const { value, cell } = matrixPayload;
-  const size = 60;
-  const intensity = value === 0 ? 0 : Math.min(value / 20, 1);
-  return (
-    <g>
-      <rect
-        x={cx - size / 2}
-        y={cy - size / 2}
-        width={size}
-        height={size}
-        rx={12}
-        fill={`rgba(56, 189, 248, ${0.15 + intensity * 0.6})`}
-      />
-      <text x={cx} y={cy - 14} textAnchor="middle" fontSize={12} fill="#0f172a">
-        {patternLabels[cell.actual]}
-      </text>
-      <text x={cx} y={cy + 6} textAnchor="middle" fontSize={14} fontWeight={600} fill="#1f2937">
-        {value}
-      </text>
-    </g>
-  );
-}
 
 interface AdvancedPredictionsProps {
   predictions: AdvancedPrediction[];
@@ -831,4 +777,81 @@ function AdvancedPredictions({ predictions }: AdvancedPredictionsProps) {
       </table>
     </div>
   );
+}
+
+function generateGalaxyDecisionGrid(
+  model: tf.LayersModel,
+  means: number[],
+  std: number[],
+  samples: GalaxySample[]
+): DecisionGridData<GalaxyClass> {
+  if (!samples.length) {
+    return { grid: [], minX: 0, maxX: 0, minY: 0, maxY: 0, classOrder: patternOrder };
+  }
+
+  const gridSize = 60;
+  const xs = samples.map((sample) => sample.pcaX);
+  const ys = samples.map((sample) => sample.pcaY);
+  const minX = Math.min(...xs);
+  const maxX = Math.max(...xs);
+  const minY = Math.min(...ys);
+  const maxY = Math.max(...ys);
+
+  const decision: number[][] = [];
+
+  for (let xi = 0; xi < gridSize; xi++) {
+    const row: number[] = [];
+    for (let yi = 0; yi < gridSize; yi++) {
+      const pcaX = minX + (xi / (gridSize - 1)) * (maxX - minX);
+      const pcaY = minY + (yi / (gridSize - 1)) * (maxY - minY);
+      const approxFeatures = estimateFeaturesFromNeighbors(pcaX, pcaY, samples);
+      const standardized = approxFeatures.map((value, index) => (value - means[index]) / std[index]);
+      const input = tf.tensor2d([standardized]);
+      const prediction = model.predict(input) as tf.Tensor;
+      const probabilities = prediction.dataSync();
+      input.dispose();
+      prediction.dispose();
+      const predictedIndex = probabilities.indexOf(Math.max(...probabilities));
+      row.push(predictedIndex);
+    }
+    decision.push(row);
+  }
+
+  return { grid: decision, minX, maxX, minY, maxY, classOrder: patternOrder };
+}
+
+function estimateFeaturesFromNeighbors(pcaX: number, pcaY: number, samples: GalaxySample[]) {
+  const neighborCount = Math.min(6, samples.length);
+  const neighbors = samples
+    .map((sample) => {
+      const dx = sample.pcaX - pcaX;
+      const dy = sample.pcaY - pcaY;
+      const distance = Math.sqrt(dx * dx + dy * dy);
+      return { sample, distance };
+    })
+    .sort((a, b) => a.distance - b.distance)
+    .slice(0, neighborCount);
+
+  if (!neighbors.length) {
+    return [0, 0, 0, 0];
+  }
+
+  const features = [0, 0, 0, 0];
+  let weightSum = 0;
+
+  neighbors.forEach(({ sample, distance }) => {
+    const weight = 1 / Math.max(distance, 0.05);
+    weightSum += weight;
+    features[0] += sample.orbitRadius * weight;
+    features[1] += sample.orbitalSpeed * weight;
+    features[2] += sample.luminosity * weight;
+    features[3] += sample.turbulence * weight;
+  });
+
+  if (weightSum === 0) {
+    const fallback = neighbors[0]?.sample ?? samples[0];
+    return [fallback.orbitRadius, fallback.orbitalSpeed, fallback.luminosity, fallback.turbulence];
+  }
+
+  return features.map((value) => value / weightSum);
 }
