@@ -68,10 +68,11 @@ export interface TrainingSummary {
   featureStats: FeatureStats | null;
 }
 
-export interface DecisionGridData {
+export interface DecisionGridData<TClass extends string = string> {
   grid: number[][];
   minX: number;
   maxX: number;
   minY: number;
   maxY: number;
+  classOrder: TClass[];
 }
